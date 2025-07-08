@@ -1,0 +1,66 @@
+2012-08-27 WANG Liangliang <llwang@ihep.ac.cn>
+	* add two properties: Scale, UniField
+
+2009-04-28 Cao Guofu <caogf@ihep.ac.cn>
+	* Use new field map (calculated by ANSYS) for non-tracking area
+
+2008-10-22 Cao Guofu <caogf@ihep.ac.cn>
+	* the table "SC_Magnet" has been changed in database.
+	* SC_Magnet to SC_magnet, AV_SSM to Magnet_Current, AV_SCQL to SCQL, AV_SCQR to SCQR
+	* make tag MagneticField-00-01-18
+
+2008-09-18 Cao Guofu <caogf@ihep.ac.cn>
+	* remove realization framework
+	* tag as MagneticField-00-01-16
+
+2008-09-18 Cao Guofu <caogf@ihep.ac.cn>
+	* read SSM,SCQ current from database
+
+2008-06-02 Cao Guofu <caogf@ihep.ac.cn>
+	* use bz along -z direction
+
+2008-06-01 Cao Guofu <caogf@ihep.ac.cn>
+	* change bz from 10 to 0 tesla in 2008-05-27mode5
+
+2008-05-28 Cao Guofu <caogf@ihep.ac.cn>
+        * update field map from 2008-04-11 to  2008-05-27
+
+2008-04-18 J.K. Wang <wangjk@ihep.ac.cn>
+        * (1) in function fieldVector(), change the result bx->-bx, bz->-bz
+	* (2) in unFieldVector(), change from (0,0,-1T) to (0,0,1T)
+	* (3) in getReferField(), change from -0.9T to 0.9T and -1.0T to 1.0T 
+	
+2008-04-16 Cao Guofu <caogf@ihep.ac.cn>
+        * add the function for check if the real field is used
+
+2008-04-15 Cao Guofu <caogf@ihep.ac.cn>
+	* add the function for reference field and make tag MagneticField-00-01-03
+
+2008-04-11 Cao Guofu <caogf@ihep.ac.cn>
+	*  use field map 2008-04-11 (5cm distance), provide 4 modes and considered the reference fram difference in simulation
+          and SCM, in addition, the field value of the area in which have no measurement point is calculated by ansys.
+          Make the tag MagneticField-00-01-02.
+
+2008-04-07 Cao Guofu <caogf@ihep.ac.cn>
+	* use field map 2008-04-03 (10cm distance), provide 4 modes and considered the reference fram difference in simulation
+          and SCM. Make the tag MagneticField-00-01-01
+
+2007-09-03 Cao Guofu <caogf@ihep.ac.cn>
+	* use the BES3 field map version1 and change the linear interpolated
+	algorithm. Make the tag MagneticField-00-00-07
+
+2007-08-16 Cao Guofu <caogf@ihep.ac.cn>
+	* move muc related parameter to share directory, make tag
+	MagneticField-00-00-06
+
+2007-08-15 Cao Guofu <caogf@ihep.ac.cn>
+	* For Boss6.3.0 release, read field map in share directory by evn MAGNETICFIELDROOT,
+
+2006-01-06 Cao Guofu <caogf@ihep.ac.cn>
+	* Use the uniform magnetic field.
+
+
+	
+2005-03-09  Li Weidong  <liwd@mail.ihep.ac.cn>
+
+	* First import of the package

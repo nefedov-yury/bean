@@ -1,0 +1,109 @@
+author hekl,qing,huangb
+	
+2014-04-08 Matthias.Ullrich@physik.uni-giessen.de
+	MRPC upgrade is added and can now be used for PID calculation
+2013-03-04 sunss@ihep.ac.cn
+	the parameters of sigma of anti-proton for endcap tof is added.
+2013-03-01 sunss@ihep.ac.cn
+	a bug is fixed
+2013-02-01 sunss@ihep.ac.cn
+	the correction for low momentum proton and anti-proton is added into the package.
+2013-01-30 sunss@ihep.ac.cn
+	this is a test version for physics experters.
+	the TOF correction for hadrons for jpsi data taken in 2009 is include in this version.
+2010-12-22 huangb@ihep.ac.cn
+add the dedx correction for 6.5.5 
+
+2010-12-13 huangb@ihep.ac.cn
+remove the 653 dedx correction in 6.5.5
+
+2010-12-6 huangb@ihep.ac.cn
+reinitilize the sub system in ParticleID.cxx
+not correction on the dedxpid if the momentum range is not included in the control sample 
+
+2010-11-1 huangb@ihep.ac.cn
+set the default value of m_pdfsigmamin_cut
+
+2010-11-1 huangb@ihep.ac.cn
+sigma unit from rec change from ps to ns, chi ust Tof1Pid and Tof2Pid is changed from 4 to set by user 
+
+2010-9-15 huangb@ihep.ac.cn
+tof pid return to previous version
+
+2010-9-6 huangb@ihep.ac.cn
+add the correction for dedx psip MC
+
+2010-9-1 huangb@ihep.ac.cn
+add the correction for dedx pion and kaon MC
+
+2010-8-19 huangb@ihep.ac.cn
+fix two bugs in TofPid
+
+2010-8-16 huangb@ihep.ac.cn
+add the correction for dedx data
+
+2010-8-16 huangb@ihep.ac.cn
+set the ToF endcap MC sigma
+
+2010-8-12 huangb@ihep.ac.cn
+set the ToF endcap sigma from sunss
+
+2010-7-22 huangb@ihep.ac.cn
+fix a bug
+
+2010-6-17 huangb@ihep.ac.cn
+use the culster of TOF reconstruction result
+
+
+2009-1-4 huangb@ihep.ac.cn
+retrain the muc NN in BOSS6.5.1
+
+
+2009-12-24 huangb@ihep.ac.cn
+change the ptrk in emcpid from mdctrk to mdckaltrk
+change the large delta_phi in emcpid
+retrain the emc NN in BOSS6.5.1
+
+2009-10-10 lixr@ihep.ac.cn
+remove the correction of dEdx with low p/mass.
+remove the correction of dEdx with cos(theta) and p.
+
+2009-09-27 lixr@ihep.ac.cn
+add the toffset(i) due to te request of sunss
+
+2009-09-21 lixr@ihep.ac.cn
+add chiTofC and pdfTofC, correct MC 6.5.0a TOf and dEdx parameters
+
+2009-08-14 huangb@ihep.ac.cn
+train the Emc and Muc with samples form BOSS6.5.0
+
+2009-07-30 lixr@ihep.ac.cn
+Add functions of getRunNo(), setRunNo(),getNhitCutDx(), setNhitCutDx().
+Create packages of TofCPID.
+correct dEdx and TOF distribution of momentum and cos(theta)
+
+2009-07-24 huangb@ihep.ac.cn
+fix some bugs in the TofEPID
+
+2009-07-03 lixr@ihep.ac.cn
+* get run number to seperate MC and data.
+* correct the chi value of dE/dx with low p/mass.	
+
+2008-12-12   huangb@ihep.ac.cn
+* remove the correction of dedx and tof since it is from mc
+
+2008-8-5   huangb@ihep.ac.cn
+* fix  memory leak of emcpid and mucpid
+
+2008-4-3   huangb@ihep.ac.cn
+* the lenght unit of TOF changed from mm to cm
+* Change EmcPid to ROOT 5.14
+
+2008-4-3   huangb@ihep.ac.cn
+* new release 
+* change the interface to integrate the rec data
+  
+2007-10-9   huangb@ihep.ac.cn
+* new release 
+* the likilihood method and probability method complete for all the
+  detecters(dE/dx,TOF,EMC and MUC)

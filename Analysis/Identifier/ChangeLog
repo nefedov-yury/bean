@@ -1,0 +1,34 @@
+2015-07-22 Sun Shengsen
+	* in TofId, is_scin is modified.
+2014-11-21 Sun Shengsen
+	* A bug is fixed for TofId::end()
+	* A protection for MRPC endcap() module(), strip() are added
+2014-11-09 Sun Shengsen
+	* The ETF(MRPC) part is modified, no data structure are changed.
+2012-05-24 Matthias Ullrich <Matthias.Ullrich@physik.uni-giessen.de>
+        *    As a new Tofendcap detector (MRPC) has been implemented into
+             the simulation the following files have been
+             adapted (changes will only be considered if the new MRPC detector is activated):
+	     BesDetectorId (new Id for MRPC)
+	     Tofid
+2006-11-07 Liang YuTie <liangyt@hep.pku.cn>
+	* update MucId . change strip number
+
+2005-02-24 Ma Qiumei and Li Weidong
+	* renaming some classes and member functions
+
+2004-5-10  maqiumei
+transplated from offline/DeterctorDescription/Identifier/v1r7  to
+BossCvs/DeterctorDescription/Identifier/Identifier-00-00-02
+
+2004-03-08  Wang.Zhe  <wangzhe@mail.ihep.ac.cn>
+        * update EMCalID
+
+2004-03-08  Wang.Zhe  <wangzhe@mail.ihep.ac.cn>
+	* modify requirements
+
+2003-12-15  Wang.Zhe  <wangzhe@mail.ihep.ac.cn>
+        * bug fixed, EMCId workable
+
+2003-11-26  Weidong Li  <liwd@mail.ihep.ac.cn>
+	* first import of the package

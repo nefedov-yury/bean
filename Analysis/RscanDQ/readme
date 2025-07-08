@@ -1,0 +1,20 @@
+##############################################
+
+This package is used to get the "good runs", "beam energy of each run" and "a sequence number" .
+
+Any one who use Rscan data, please use this pachage to get the right runs and beam energies.
+
+you can use it like this :
+
+
+  int runNo = eventHeader->runNumber();
+      
+  RscanDQ rdq = RscanDQ(runNo);
+  
+  double Ebeam = rdq.getEbeam();
+  int status = rdq.getStatus();
+  int number = rdq.getNumber();
+  
+  if (status == -1)  return StatusCode::SUCCESS;  // This requirement is only used for data. For Monte Carlo, please remove it. 
+
+##############################################

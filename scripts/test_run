@@ -1,0 +1,23 @@
+#!/bin/bash
+set -x
+# test-debug output
+
+BEAN="./bean_6.6.4.exe"
+
+######################## TEST ########################
+
+#   gdb -ex=r --args \
+  ${BEAN} -v \
+        -u PsipJpsiPhiEta \
+        file0002.dst
+
+#         -u PsipPiPiKK \
+#         -u PsipJpsiPhiEta \
+#         -u PsipMuMuGamma\
+#         -L PsipJpsiPhiEta/local/Lists/mcsig_12psip.list \
+#         -N 10 \
+#         -h /dev/null
+#         > >(tee test.out) 2>&1
+#         > test_2608.out 2>&1
+#
+######################## END ########################

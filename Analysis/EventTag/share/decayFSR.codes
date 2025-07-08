@@ -1,0 +1,1557 @@
+Decay J/psi
+# J/psi --> ll  #codes 1-7;  bits [3:7] are 0;
+1   e+   e-        
+2   mu+  mu-       
+
+# J/psi --> Radiative Decays # codes 7-63;  
+4     gamma eta_c                 
+5     gamma pi+ pi- pi0 pi0       
+6     gamma eta pi+ pi-           
+7     gamma eta(1405)             
+8     gamma eta2(1870)            
+9     gamma rho+ rho-             
+10    gamma rho0 rho0             
+11    gamma eta'                  
+12    gamma pi+ pi- pi+ pi-       
+13    gamma K+ K- pi+ pi-         
+14    gamma f_4(2050)             
+15    gamma omega omega           
+16    gamma f_2                   
+17    gamma f_0(1710)             
+18    gamma eta                   
+19    gamma f'_1                  
+20    gamma f_1                    
+25    gamma f_1(1510)              
+26    gamma f'_2                   
+27    gamma f_2(1950)              
+28    gamma K*0 anti-K*0           
+29    gamma K*+ K*-                
+30    gamma phi phi                
+31    gamma p+ anti-p-             
+32    gamma eta(2225)              
+33    gamma eta(1760)              
+34    gamma x(1835)                
+35    gamma pi0                      
+####  37 - 63 is empty now
+
+#hadronic J/psi decays starts from 64
+# J/psi --> VP    #64-79
+64   rho+  pi-      
+65   rho-  pi+      
+66   rho0  pi0      
+67   omega eta      
+68   phi   eta      
+69   omega pi0      
+70   phi   eta'     
+71   rho0  eta      
+72   omega eta'     
+73   rho0  eta'     
+74   K*- K+       
+75   K*+ K-       
+76   anti-K*0 K_L0
+77   anti-K*0 K_S0   
+78   K*0 K_L0    
+77   K*0 K_S0    
+# J/psi --> omega P P 80-100
+79  omega pi+ pi-        
+80  omega f_2            
+81  omega pi0 pi0        
+82  omega K+  K-         
+83  omega K_L0  K_S0    
+84  omega K_L0  K_L0    
+85  omega K_S0  K_S0    
+
+
+
+86  omega f_0(1710)      
+87  omega  p+ anti-p-    
+88  omega f'_1           
+89  omega f_0            
+90  omega pi+ pi- pi0    
+91  omega pi+ pi+ pi- pi-
+92  omega K*0 K_S0    
+93  omega K*0 K_L0    
+94  omega K*+ K-         
+95  omega K*- K+         
+96   omega  K+ K_S0 pi-  
+97   omega  K+ K_L0 pi-  
+98   omega  K- K_S0 pi+  
+99   omega  K- K_L0 pi+  
+
+# J/psi --> phi p p
+100  phi K*0 K_S0     
+101  phi K*0 K_L0     
+102  phi K*+ K-          
+103  phi K*- K+          
+104  phi pi+ pi- pi+ pi- 
+105  phi K+ K-           
+106  phi K_L0 K_S0      
+107  phi K_L0 K_L0      
+108  phi K_S0 K_S0      
+109  phi f_0(1710)       
+110  phi f'_2            
+111  phi pi+ pi-         
+112  phi  K+ K_S0 pi-    
+113  phi  K- K_S0 pi+    
+114  phi  f_0            
+115  phi  f_1            
+116  phi  p+ anti-p-     
+
+117  phi  f'_0           
+118  phi  f_0(1500)      
+119  phi  f_0(1790)      
+120  phi  f_2            
+121  phi  sigma_0        
+
+# J/psi --> other hadronic resonance
+128   a_20   rho0            
+129   K*0   anti-K_2*0       
+130   anti-K*0 K_2*0         
+131   K'_1+  K-              
+132   K'_1-  K+              
+133   b_1+   pi-             
+134   b_1-   pi+             
+135   b_10   pi0             
+136   Delta++ anti-p- pi-    
+137   Delta++ anti-Delta--   
+138   Sigma*- anti-Sigma*+   
+139   Sigma*+ anti-Sigma*-   
+140   p+ anti-p-  eta'       
+141   Xi*- anti-Xi+          
+142   p+ K- anti-Sigma*0     
+143   Xi*0  anti-Xi0         
+144   Sigma*- anti-Sigma+    
+145   Sigma*+ anti-Sigma-    
+
+# J/psi --> decays into stable hadrons		
+150    pi+ pi- pi+ pi- pi0                  
+151    pi+ pi- pi+ pi- pi+ pi- pi0          
+152    pi+ pi- pi0                          
+153    pi+ pi- pi0 K+ K-                    
+154    pi+ pi- pi+ pi- pi+ pi- pi+ pi- pi0  
+155    pi+ pi- K+ K-                        
+156    K+ K- pi0                            
+157    K_L0 K_S0 pi0                       
+158    K_L0 K_L0 pi0                       
+159    K_S0 K_S0 pi0                       
+160    K_L0 K+ pi-                       
+161    K_S0 K+ pi-                       
+162    K_L0 K- pi+                            
+163    K_S0 K- pi+                            
+164    p+ anti-p- pi+ pi-                   
+170    pi+ pi- pi+ pi-                      
+171    pi+ pi- pi+ pi- pi+ pi-              
+172    pi+ pi- pi0 pi+ pi- pi0              
+173    pi+ pi- pi+ pi- eta                  
+174    pi+ pi- pi+ pi- pi+ pi- eta          
+175    n0 anti-n0 pi+ pi-                   
+176    Sigma0 anti-Sigma0                   
+177    pi+ pi- pi+ pi- K+ K-       
+178    p+ anti-p- pi+ pi- pi0      
+179   p+ anti-p-                  
+180   p+ anti-p- eta              
+181   p+ anti-n0 pi-              
+182   anti-p- n0 pi+              
+183   n0  anti-n0                 
+184   Xi0  anti-Xi0               
+185   Lambda0 anti-Lambda0        
+186   p+ anti-p- pi0              
+187   Lambda0 anti-Sigma- pi+     
+188   Lambda0 anti-Sigma+ pi-     
+189   anti-Lambda0 Sigma+ pi-     
+190   anti-Lambda0 Sigma- pi+     
+191   p+ K-  anti-Lambda0         
+192   K+ K- K+ K-                 
+193   p+ K- anti-Sigma0           
+194   K+ K-                       
+195   K_S0  K_L0                 
+196   Lambda0 anti-Lambda0 pi0    
+197   pi+ pi-                     
+Enddecay
+
+############# psi(2s) #####################################
+Decay psi(2S)
+1  e+   e-               
+2  mu+  mu-              
+3  tau+  tau-            
+
+8    gamma chi_c0                   
+9    gamma chi_c1                   
+10   gamma chi_c2                   
+11   gamma eta_c                    
+12   gamma eta'                     
+13   gamma f_2                      
+
+64 J/psi  pi+ pi-        
+65 J/psi  pi0 pi0        
+66 J/psi  eta            
+67 J/psi  pi0            
+68 h_c pi0 
+
+80  pi+ pi- pi+ pi- pi+ pi- pi0    
+81  pi+ pi- pi+ pi- pi+ pi-        
+82   pi+ pi- pi+ pi- pi0            
+83  b_1+ pi-                       
+84  b_1- pi+                       
+85  omega K+ K-                    
+86  K+ K- pi+ pi-                  
+87  K_1+ K-                      
+88  K_1- K+                      
+89  rho0 pi+ pi-                 
+90  pi+ pi-                      
+91  K+ K-                        
+92  phi K- K+                    
+93  phi pi- pi+                  
+94  pi+  pi- K_S0 K_S0           
+95  pi+  pi- K_L0 K_L0           
+96  pi+  pi- K_L0 K_S0           
+97  rho0 pi0                     
+98  rho+ pi-                     
+99  rho- pi+                     
+100  pi+  pi- pi0                   
+
+128  p+  anti-p- pi+ pi-            
+129  p+  anti-p- pi0                
+130  p+  anti-p-                    
+131  Lambda0 anti-Lambda0         
+132  Delta++  anti-Delta--        
+133  Sigma0  anti-Sigma0          
+134  Sigma*+  anti-Sigma*-        
+135  Xi- anti-Xi+                 
+Enddecay
+
+######### psi(3770) ############################################
+Decay psi(3770)
+64    J/psi pi+  pi-                       
+80    D+  D-                         
+81    D0  anti-D0                    
+Enddecay
+
+
+######### psi(4040) ############################################
+Decay psi(4040)
+1  e+   e-                
+2  mu+  mu-               
+3  tau+ tau-              
+
+80 D+ D-                  
+81 D0 anti-D0             
+82 D*0 anti-D0            
+83 anti-D*0 D0            
+84 D*+ D-                 
+85 D*- D+                 
+86 D*0 anti-D*0                   
+87 D*+ D*-                        
+88 D0 anti-D0 pi0                 
+89 D+ D- pi0                      
+90 D0 D- pi+                      
+91 anti-D0 D+ pi-                 
+92 D*+ D- pi0                     
+93 D*- D+ pi0                     
+94 D*+ anti-D0 pi-                
+95 D*- D0 pi+                     
+96 D+ anti-D*0 pi-                
+97 D- D*0 pi+                     
+98 D_s+ D_s-                      
+Enddecay
+
+######### psi(4160) ############################################
+Decay psi(4160)
+1  e+   e-            
+2  mu+  mu-           
+3  tau+ tau-          
+64  D0 anti-D0         
+65  D+ D-              
+66  D*0 anti-D0        
+67  anti-D*0 D0        
+68  D*+ D-             
+69  D*- D+             
+70   D*0 anti-D*0      
+71  D*+ D*-            
+72  D0 anti-D0 pi0     
+73  D+ D- pi0          
+74  D0 D- pi+          
+75  anti-D0 D+ pi-     
+76  D*+ D- pi0         
+77  D*- D+ pi0         
+78  D*+ anti-D0 pi-    
+79  D*- D0 pi+         
+80  D+ anti-D*0 pi-    
+81  D- D*0 pi+         
+82  D_s+ D_s-          
+83  D_s*+ D_s-         
+84  D_s*- D_s+         
+85  D_s+ D_s- pi0      
+Enddecay
+
+######### psi(4415) ############################################
+Decay psi(4415) 
+1	e+   e-               
+2	 mu+  mu-              
+3	 tau+ tau-             
+64	 D0 anti-D0            
+65	 D+ D-                 
+66	 D*0 anti-D0           
+67	 anti-D*0 D0           
+68	 D*+ D-                
+69	 D*- D+                
+70	 D*0 anti-D*0          
+71	 D*+ D*-               
+72	 D0 anti-D0 pi0        
+73	 D+ D- pi0             
+74	 D0 D- pi+             
+75	 anti-D0 D+ pi-        
+76	 D*+ D- pi0            
+77	 D*- D+ pi0            
+78	 D*+ anti-D0 pi-       
+79	 D*- D0 pi+            
+80	 D+ anti-D*0 pi-       
+81	 D- D*0 pi+            
+82	 D_s+ D_s-             
+83	 D_s*+ D_s-            
+84	 D_s*- D_s+            
+85	 D_s*+ D_s*-           
+86	 D_s+ D_s- pi0         
+87	 D_s*+ D_s- pi0        
+88	 D_s+ D_s*- pi0        
+#89	 D_s+ D- anti-K0       
+89	 D_s+ D- K_L0       
+90	 D_s+ D- K_S0       
+#91 	 D_s- D+ anti-K0       
+91	 D_s- D+ K_L0       
+92     	 D_s- D+ K_S0       
+93	 D0 D_s- K+            
+94	 anti-D0 D_s+ K-       
+Enddecay
+
+######### h_c ############################################
+Decay h_c
+8  gamma eta_c 
+84 J/psi pi0 
+Enddecay
+
+######### eta_c ############################################
+Decay eta_c
+# leptonic decay 0-7
+# radiative  8-63
+
+80	      rho0 rho0                     
+81	      p+  anti-p-                   
+82	      phi phi                       
+83	      phi K+ K- 
+84	      rho+ rho-                     
+85	      pi+ pi- pi+ pi-               
+86	      K+  K-  K+ K-                 
+87	      K+  K-  pi+ pi-               
+88	      eta  pi+ pi-                  
+89	      eta  pi0 pi0                  
+90	      eta' pi+ pi-                  
+91	      eta' pi0 pi0                  
+92	      pi0  K+  K-                   
+93	      K+ K_L0  pi-               
+94	      K+ K_S0  pi-               
+95	      K- K_L0 pi+                     
+96	      K- K_S0 pi+
+#95	      K0 anti-K0 pi0                
+97	      K_S0 K_L0 pi0                
+98	      K_S0 K_S0 pi0                
+99	      K_L0 K_L0 pi0                
+100	      K*+ K*-                       
+101	      K*0 anti-K*0                  
+102	      K*0 K- pi+                     
+103	      anti-K*0 K+ pi-                
+# PDG 2007, pingrg
+105	      pi+ pi- pi+ pi- pi+ pi-        
+106	      pi+ pi- pi+ pi- K+ K-          
+107	      Lambda0 anti-Lambda0           
+Enddecay
+#
+
+
+Decay eta_c(2S)
+# leptonic decay 0-7
+# radiative  8-63
+80    K+ K_S0  pi-               
+81    K+ K_L0  pi-               
+82    K- K_S0 pi+                     
+83    K- K_L0 pi+                     
+84    pi0  K+  K-                   
+85    K_S0 K_S0 pi0                
+86    K_L0 K_L0 pi0                
+87    K_L0 K_S0 pi0                
+Enddecay
+
+Decay chi_c0
+8   gamma J/psi                   
+9   gamma  gamma                     
+80 p+ anti-p-                    
+81 Lambda0 anti-Lambda0          
+82 pi+  pi-                      
+83 K+   K-                       
+84 K_S0 K_S0                     
+85 K_L0 K_L0                     
+86 K_L0 K_S0                     
+87 phi phi                       
+88 omega omega                    
+89 anti-K*0 K*0                   
+90 eta eta                       
+91 f_0 f_0                       
+92 K*0  K-  pi+                  
+93 anti-K*0  K+  pi-             
+94 K*+  K_S0   pi-            
+95 K*+  K_L0   pi-            
+96 K*-  K_L0  pi+                  
+97 K*-  K_S0  pi+                  
+98 rho0 pi+ pi-                  
+100 rho+ pi- pi0                  
+101 rho- pi+ pi0                  
+102 pi+ pi- pi+ pi-               
+103 pi+  pi-  K+  K-              
+104 K_S0 K_S0 pi+ pi-             
+105 K_L0 K_L0 pi+ pi-             
+106 K_L0 K_S0 pi+ pi-             
+107 pi+  pi-  p+  anti-p-         
+108 K+ K- K+ K-                   
+109 K+ K- K_S0 K_S0               
+110 K+ K- K_L0 K_L0               
+111 K+ K- K_L0 K_S0               
+112 pi+ pi- pi+ pi- pi+ pi-       
+Enddecay
+
+
+Decay chi_c1
+ 8   gamma J/psi
+ 64  pi+ pi- pi+ pi-               
+ 65  p+ anti-p-                     
+ 66    pi+ pi- pi+ pi- pi+ pi-       
+ 67    pi+  pi-  K+  K-               
+ 68    rho0 pi+ pi-                  
+ 69    rho+ pi- pi0                  
+ 70    rho- pi+ pi0                  
+ 71    anti-K*0  K+  pi-              
+ 72    anti-K*0 K*0			 
+ 73    K*0  K-  pi+                   
+ 74    K*+  K_L0   pi-             
+ 75    K*+  K_S0   pi-             
+ 76	 K*-  K_L0  pi+                   
+ 77	 K*-  K_S0  pi+                   
+ 78	  pi+  pi-  p+  anti-p-         
+79   pi+ pi- K_S0 K_S0		 
+80  pi+ pi- K_L0 K_L0		 
+90  pi+ pi- K_S0 K_L0		 
+91  K+ K- K_S0 K_S0		 
+92  K+ K- K_L0 K_L0		 
+93  K+ K- K_S0 K_L0		 
+94  Lambda0 anti-Lambda0		 
+95   K+ K_S0  pi-               
+96   K+ K_L0  pi-               
+97   K- K_S0 pi+                     
+98   K- K_L0 pi+                     
+99  K+ K- K+ K- 			
+Enddecay
+
+Decay  chi_c2
+8   gamma J/psi                  
+9   gamm gamma                       
+64  p+ anti-p-               
+65  pi+  pi-                 
+66  pi+ pi- pi+ pi-          
+67  K+ K- K+ K-               
+68  pi+ pi- pi+ pi- pi+ pi-  
+69  pi+  pi-  K+  K-         
+70  rho0 pi+ pi-              
+71  rho+ pi- pi0              
+72  rho- pi+ pi0              
+73  K+   K-                  
+74  K_S0 K_S0                
+75  K_L0 K_L0                
+76  K_S0 K_L0                
+77  pi+  pi- K_S0 K_S0       
+78  pi+  pi- K_L0 K_L0       
+79  pi+  pi- K_S0 K_L0       
+81  K+  K- K_S0 K_S0         
+82  K+  K- K_L0 K_L0         
+83  K+  K- K_S0 K_L0         
+84  phi phi                  
+85  anti-K*0  K+  pi-        
+86  K*0  K-  pi+             
+87  anti-K*0  K*0            
+88  K*+  K_S0   pi-       
+89  K*+  K_L0   pi-       
+90  K*-  K_S0  pi+             
+91  K*-  K_L0  pi+             
+92  pi+  pi-  p+  anti-p-    
+93  Lambda0 anti-Lambda0     
+Enddecay
+
+
+
+
+##################################
+#
+#   D+ Meson
+#################################
+Decay D+
+1   e+ nu_e
+2   mu+ nu_mu               
+3   tau+ nu_tau             
+
+
+8   anti-K*0  e+  nu_e         
+#9   anti-K0    e+  nu_e        
+9   K_L0    e+  nu_e        
+10   K_S0    e+  nu_e        
+11   anti-K_10  e+  nu_e        
+12   anti-K_2*0 e+  nu_e        
+13   pi0  e+  nu_e          
+14   eta  e+  nu_e          
+15   eta' e+  nu_e          
+16   rho0 e+  nu_e          
+17   omega e+  nu_e         
+18   K-  pi+  e+ nu_e       
+#18   anti-K0  pi0  e+  nu_e 
+19   K_L0  pi0  e+  nu_e 
+20   K_S0  pi0  e+  nu_e 
+#
+32   anti-K*0  mu+  nu_mu         
+#33   anti-K0    mu+  nu_mu        
+33   K_L0    mu+  nu_mu        
+34   K_S0    mu+  nu_mu        
+35   anti-K_10  mu+  nu_mu        
+36   anti-K_2*0 mu+  nu_mu        
+37   pi0  mu+  nu_mu        
+38   eta  mu+  nu_mu        
+39   eta' mu+  nu_mu        
+40   rho0 mu+  nu_mu        
+41   omega mu+  nu_mu       
+42   K-  pi+  mu+ nu_e      
+#42   anti-K0  pi0  mu+  nu_mu
+43   K_L0  pi0  mu+  nu_mu
+44   K_S0  pi0  mu+  nu_mu
+#
+#64   anti-K0   pi+           
+64   K_L0   pi+           
+65   K_S0   pi+           
+#65   a_1+ anti-K0            
+66   a_1+ K_S0            
+67   a_1+ K_L0            
+68   anti-K'_10  pi+         
+69   anti-K_0*0  pi+        
+70   anti-K*0 rho+           
+
+# the Dalitz mode below includes K*bar(892)0 pi+, 
+# K*bar(1430)0 pi+, and K*bar(1680)0 pi+ resonances.
+71    K-  pi+  pi+   
+# the Dalitz mode below includes K0bar rho+, 
+# and K*bar(892)0 pi+ resonances
+
+#72   anti-K0   pi+  pi0             
+72   K_L0   pi+  pi0             
+73   K_S0   pi+  pi0             
+#74   anti-K0   eta  pi+             
+74   K_L0   eta  pi+             
+75   K_S0   eta  pi+             
+#76   anti-K0   rho0  pi+            
+76   K_L0   rho0  pi+            
+77   K_S0   rho0  pi+            
+#78   anti-K0   omega  pi+         
+78   K_L0   omega  pi+         
+79   K_S0   omega  pi+         
+80   K-  rho+  pi+                  
+81   K*- pi+  pi+                   
+82   anti-K*0 pi0  pi+              
+83   anti-K*0 eta  pi+              
+84   anti-K*0 rho0  pi+             
+85   anti-K*0 omega  pi+            
+86   K*- rho+  pi+                   
+#
+87   K-  pi+  pi+   pi0              
+#88   anti-K0   pi+  pi+   pi-        
+88   K_L0   pi+  pi+   pi-        
+89   K_S0   pi+  pi+   pi-        
+#90   anti-K0   pi+  pi0   pi0        
+90   K_L0   pi+  pi0   pi0        
+91   K_S0   pi+  pi0   pi0        
+92   K-  pi+  pi+   pi+   pi- 
+93   K-  pi+  pi+   pi0   pi0  
+#94   anti-K0   pi+  pi+   pi-  pi0
+94   K_L0   pi+  pi+   pi-  pi0
+95   K_S0   pi+  pi+   pi-  pi0
+#96   anti-K0   pi+  pi0   pi0  pi0
+96   K_L0   pi+  pi0   pi0  pi0
+97   K_S0   pi+  pi0   pi0  pi0
+#
+#98   anti-K0   anti-K0    K+  
+98   K_S0   K_L0    K+  
+99   K_L0   K_L0    K+  
+100   K_S0   K_S0    K+  
+101   phi pi+                  
+102   phi pi+  pi0             
+#103   anti-K0   K+             
+103   K_L0   K+             
+104   K_S0   K+             
+105   anti-K*0  K+             
+#106   K*+  anti-K0             
+106   K*+  K_L0             
+107   K*+  K_S0             
+108   anti-K*0 K*+             
+109   K+   K-  pi+             
+#110   K+  anti-K0   pi0        
+110   K+  K_L0   pi0        
+111   K+  K_S0   pi0        
+#112   anti-K0   K0  pi+        
+112   K_L0   K_L0  pi+        
+113   K_S0   K_S0  pi+        
+114   K_L0   K_S0  pi+        
+115   K*+ K-  pi+              
+116   K+  K*- pi+              
+#117   K*+ anti-K0   pi0        
+118   K*+ K_L0   pi0        
+119   K*+ K_S0   pi0        
+120   K+  anti-K*0 pi0         
+#121   anti-K*0 K0  pi+         
+121   anti-K*0 K_L0  pi+         
+122   anti-K*0 K_S0  pi+         
+#123   anti-K0   K*0 pi+        
+124   K_L0   K*0 pi+        
+125   K_S0   K*0 pi+        
+
+130   pi0 pi+                    
+131   rho0 pi+                   
+132   pi+  pi+  pi-              
+133   pi+  pi0  pi0              
+134   pi+  pi+  pi-  pi0         
+135   pi+  pi0  pi0  pi0         
+136   eta pi+                    
+137   eta pi+ pi0                
+138   eta pi+ pi+ pi-            
+139   eta pi+ pi0 pi0            
+140   pi+ pi+ pi+ pi- pi-         
+Enddecay
+#
+######## D0 #####################################
+Decay D0
+# updated according to suggestions by P. Roudeau,
+# using PDG2004 measurements and imposing the equality
+# of sl partial widths for D+ and D0.
+# Include additional decay anti-K0 pi- e+ nu_e , K- pi0 e+ nu_e.
+#
+1 e+ e-
+2 mu+ mu-
+3 tau+ tau-
+
+8  K*-  e+  nu_e          
+9  K-   e+  nu_e          
+10  K_1-  e+  nu_e       
+11  K_2*- e+  nu_e       
+12  pi-  e+  nu_e          
+13  rho- e+  nu_e          
+#14  anti-K0  pi-  e+  nu_e  
+14  K_L0  pi-  e+  nu_e  
+15  K_S0  pi-  e+  nu_e  
+16  K-  pi0  e+  nu_e       
+#
+32  K*-  mu+ nu_mu         
+33  K-   mu+ nu_mu         
+34  K_1-  mu+ nu_mu        
+35  K_2*- mu+ nu_mu        
+36  pi-  mu+ nu_mu         
+37  rho- mu+ nu_mu         
+#38  anti-K0  pi-  mu+  nu_mu
+38  K_L0  pi-  mu+  nu_mu
+39  K_S0  pi-  mu+  nu_mu
+40  K-  pi0  mu+  nu_mu    
+#
+
+64  K-  pi+                         
+#65  anti-K0   pi0                   
+65  K_L0   pi0                   
+66  K_S0   pi0                   
+#67  anti-K0   eta                   
+67  K_L0   eta                   
+68  K_S0   eta                   
+#69  anti-K0   eta'                  
+69  K_L0   eta'                  
+70  K_S0   eta'                  
+#71  omega anti-K0                   
+71  omega K_L0                   
+72  omega K_S0                   
+73  anti-K*0 eta                    
+74  anti-K*0 eta'                   
+75  a_1+ K-                         
+76  K*- rho+                        
+77  anti-K*0 rho0                   
+78  anti-K*0 omega                  
+# the Dalitz mode below includes K*bar(892)0 pi0, 
+# K*(892)- pi+, and K- rho(770)+ resonances
+79  K-  pi+  pi0                    
+80  K*0 pi0                        
+81  K_1- pi+                        
+82  anti-K_10 pi0                   
+#
+# the Dalitz mode below includes K*(892)- pi+ and Kbar0 rho(770)0 resonances
+#83  anti-K0   pi+  pi-          
+83  K_L0   pi+  pi-          
+84  K_S0   pi+  pi-          
+#85  anti-K0   pi0  pi0          
+86  K_L0   pi0  pi0          
+87  K_S0   pi0  pi0          
+88  anti-K*0 pi+  pi-           
+89  anti-K*0 pi0  pi0           
+90  K*- pi+  pi0                
+91  K-  rho+ pi0                
+92  K-  pi+  rho0               
+93  K-  pi+  omega              
+94  K-  pi+  eta                
+95  K-  pi+  eta'               
+96  K-  pi+  pi+   pi-          
+#97  anti-K0   pi+  pi-   pi0    
+97  K_L0   pi+  pi-   pi0    
+98  K_S0   pi+  pi-   pi0    
+#
+# K- pi+ pi0 pi0 is (15 +/- 5)% in the PDG, but we decrease it to 
+# have everything add to 1 and get enough neutral kaons:
+100  K-  pi+  pi0   pi0             
+#
+#101  anti-K0   pi0  pi0   pi0       
+101  K_L0   pi0  pi0   pi0       
+102  K_S0   pi0  pi0   pi0       
+103  K-  pi+  pi+   pi-   pi0       
+104  K-  pi+  pi0   pi0   pi0       
+#105  anti-K0   pi+  pi-   pi+   pi- 
+105  K_L0   pi+  pi-   pi+   pi- 
+106  K_S0   pi+  pi-   pi+   pi- 
+# 
+#107   anti-K0   pi+  pi-   pi0   pi0 
+108   K_L0   pi+  pi-   pi0   pi0 
+109   K_S0   pi+  pi-   pi0   pi0 
+#110   anti-K0   pi+  pi-   pi0   pi0   pi0 
+110   K_L0   pi+  pi-   pi0   pi0   pi0 
+111   K_S0   pi+  pi-   pi0   pi0   pi0 
+#
+#112 phi anti-K0                   
+112 phi K_S0                   
+113 phi K_L0                   
+#114 anti-K0   K+   K-             
+114 K_L0   K+   K-             
+115 K_S0   K+   K-             
+#116 K_S0 K_S0  K_S0               
+116 K_S0 K_S0  K_S0               
+117 K_S0 K_S0  K_L0               
+118 K_S0 K_L0  K_L0               
+119 K_L0 K_L0  K_L0               
+120 K+  K-                        
+121 K_S0 K_S0                     
+122 K_L0 K_L0                     
+123 K_L0 K_S0                     
+#125 K*0 anti-K0                   
+125 K*0 K_L0                   
+126 K*0 K_S0                   
+#127 anti-K*0 K0                   
+128 anti-K*0 K_L0                   
+129 anti-K*0 K_S0                   
+130 K*- K+                        
+131 K*+ K-                        
+132 anti-K*0 K*0                  
+133 phi pi0                       
+134 phi pi+  pi-                  
+135 K+  K-   pi+  pi-             
+136 K+  K-   pi0  pi0             
+#137 anti-K0   K0   pi+  pi-       
+138 K_L0   K_L0   pi+  pi-       
+139 K_S0   K_L0   pi+  pi-       
+140 K_S0   K_S0   pi+  pi-       
+#141 anti-K0   K0   pi0  pi0       
+142 K_L0   K_L0   pi0  pi0       
+143 K_S0   K_L0   pi0  pi0       
+144 K_S0   K_S0   pi0  pi0       
+#
+150  pi+ pi-                       
+151 pi0 pi0                       
+152 eta pi0                       
+153 eta'  pi0                     
+154 eta eta                       
+155 rho+ pi-                      
+156 rho- pi+                      
+157 rho0 pi0                      
+158  pi+  pi-  pi0                 
+159 pi0  pi0  pi0                 
+160 pi+  pi+  pi-  pi-            
+161 pi+  pi-  pi0  pi0            
+162 pi+  pi-  pi+  pi-  pi0       
+163 pi+  pi-  pi0  pi0  pi0       
+#
+# Doubly Cabibbo suppressed decays:
+164   pi-  K+                      
+165   pi-  K+  pi0                 
+Enddecay
+#
+
+#
+#
+#
+#   Light Baryons
+#
+Decay Lambda0
+##  #1 included into hadronic decay.
+#1   p+  pi-                   
+2   n0  pi0                   
+3   n0                    
+4   p+  pi-               
+5   p+  e-   anti-nu_e        
+6   p+  mu-  anti-nu_mu       
+Enddecay
+
+#
+Decay Lambda(1405)0
+1   Sigma+   pi-    
+2   Sigma-   pi+    
+3   Sigma0   pi0    
+Enddecay
+#
+#
+Decay Lambda(1520)0
+1  p+     K-       
+#2  n0   anti-K0    
+3  n0   K_S0    
+4  n0   K_L0    
+5  Sigma+   pi-    
+6  Sigma-   pi+    
+7  Sigma0   pi0    
+8  Lambda0  pi0  pi0                 
+9  Lambda0  pi+  pi-                 
+10 Sigma+   pi-  pi0
+11 Sigma-   pi+  pi0
+12 Sigma0   pi0  pi0
+13 Sigma0   pi+  pi-
+14 Lambda0      
+Enddecay
+#
+
+#
+Decay Lambda(1600)0
+1    p+     K-    
+#2    n0   anti-K0 
+3    n0   K_L0 
+4    n0   K_S0 
+5    Sigma+   pi-
+6    Sigma-   pi+
+7    Sigma0   pi0
+Enddecay
+#
+#
+Decay Lambda(1670)0
+1  p+     K-	
+#2  n0   anti-K0 
+3  n0   K_L0 
+4  n0   K_S0 
+5   Sigma+   pi-
+6   Sigma-   pi+
+7   Sigma0   pi0
+8   Lambda0  eta
+Enddecay
+#
+#
+Decay Lambda(1690)0
+1  p+     K-	  
+#2  n0   anti-K0	  
+3  n0   K_L0 
+4  n0   K_S0 
+5  Sigma+   pi-	  
+6  Sigma-   pi+	  
+7  Sigma0   pi0	  
+8  Lambda0  pi0  pi0 
+9  Lambda0  pi+  pi- 
+10  Sigma+   pi-  pi0 
+11 Sigma-   pi+  pi0 
+12 Sigma0   pi0  pi0 
+13 Sigma0   pi+  pi- 
+Enddecay
+#
+#
+Decay Lambda(1800)0
+1    p+     K-       
+#2    n0   anti-K0    
+3    n0   K_L0    
+4    n0   K_S0    
+5    Sigma+   pi-    
+6    Sigma-   pi+    
+7    Sigma0   pi0    
+8    Sigma*+   pi-   
+9    Sigma*-   pi+   
+10    Sigma*0   pi0   
+11    p+     K*-      
+12    n0   anti-K*0   
+Enddecay
+#
+#
+Decay Lambda(1810)0
+1  p+     K-	
+#2  n0   anti-K0    
+3  n0   K_S0    
+4  n0   K_L0    
+5  Sigma+   pi-    
+6  Sigma-   pi+    
+7  Sigma0   pi0    
+8   Sigma*+   pi- 
+9   Sigma*-   pi+ 
+10   Sigma*0   pi0 
+11  p+     K*-      
+12 n0   anti-K*0    
+Enddecay
+#
+#
+Decay Lambda(1820)0
+1   p+     K-            
+#2   n0   anti-K0         
+3  n0   K_S0    
+4  n0   K_L0    
+5  Sigma+   pi-          
+6  Sigma-   pi+          
+7  Sigma0   pi0          
+8  Sigma*+   pi-        
+9  Sigma*-   pi+        
+10  Sigma*0   pi0        
+11  Lambda0  eta          
+12  Sigma+   pi-  pi0     
+13  Sigma-   pi+  pi0     
+14  Sigma0   pi0  pi0     
+15  Sigma0   pi+  pi-     
+Enddecay
+#
+#
+Decay Lambda(1830)0
+1   p+     K-                    
+#2   n0   anti-K0                 
+3  n0   K_S0    
+4  n0   K_L0    
+5  Sigma+   pi-                  
+6  Sigma-   pi+                  
+7  Sigma0   pi0                  
+8  Sigma*+   pi-                 
+9  Sigma*-   pi+                 
+10  Sigma*0   pi0                 
+Enddecay
+#
+#
+#
+Decay Sigma(1660)0
+1    p+     K-                            
+#2    n0   anti-K0                         
+3  n0   K_S0    
+4  n0   K_L0    
+5  Lambda0 pi0                            
+6   Sigma+   pi-                          
+7   Sigma-   pi+			      			
+Enddecay
+#
+#
+Decay Sigma(1670)0
+1     p+     K-                   
+#2     n0   anti-K0                
+3  n0   K_S0    
+4  n0   K_L0    
+5     Lambda0 pi0                   
+6     Sigma+   pi-                 
+7     Sigma-   pi+		     
+Enddecay
+#
+#
+Decay Sigma(1775)0
+1     p+     K-       
+#2     n0   anti-K0    
+3  n0   K_S0    
+4  n0   K_L0    
+5     Lambda0 pi0        
+6     Sigma+   pi-        
+7     Sigma-   pi+        
+8     Sigma*+   pi-      
+9     Sigma*-   pi+      
+10     Lambda(1520)0 pi0  
+Enddecay
+#
+Decay Sigma+
+1    p+  pi0             
+2    n0  pi+             
+3    p+              
+Enddecay
+#
+Decay Delta+
+1    p+  pi0                      
+2    n0  pi+                      
+3    p+                       
+Enddecay
+#
+#
+Decay Xi*0
+1   Xi0   pi0        
+2   Xi-   pi+        
+Enddecay
+#
+Decay Delta0
+1  p+    pi-                   
+2  n0    pi0                   
+3  n0                      
+Enddecay
+#
+#
+Decay Sigma*-
+1    Lambda0   pi-              
+2    Sigma0  pi-                
+3    Sigma-  pi0                
+Enddecay
+#
+Decay Sigma*+
+1    Lambda0   pi+                  
+2    Sigma+  pi0                    
+3    Sigma0  pi+                    
+Enddecay
+#
+Decay Sigma*0
+1   Lambda0   pi0                
+2   Sigma+  pi-                  
+3   Sigma-  pi+                  
+Enddecay
+#
+Decay Xi*-
+1   Xi0   pi-                     
+2   Xi-   pi0                     
+Enddecay
+#
+Decay Omega-
+1   Lambda0   K-                
+2   Xi0   pi-                   
+3   Xi-   pi0                   
+Enddecay
+
+
+#############################################################
+#
+#
+#  Strange Mesons
+#
+############################################################
+
+
+Decay K_S0
+1   pi+  pi-                         
+2   pi0  pi0                         
+Enddecay
+#
+#  K_L0 is decayed in GEANT
+#
+Decay K0
+1     K_L0                              
+2     K_S0                              
+Enddecay
+#
+Decay K*0
+1     K+  pi-                      
+#2     K0  pi0                      
+3     K_L0  pi0                      
+4     K_S0  pi0                      
+#5     K0 gamma                       
+6     K_L0                       
+7     K_S0                       
+Enddecay
+
+Decay K*+
+#1     K0  pi+                   
+2     K_L0  pi+                   
+3     K_S0  pi+                   
+4     K+  pi0                   
+5     K+                    
+Enddecay
+
+#
+#
+Decay K_10
+1   rho-  K+                        
+#2   rho0  K0                        
+3   rho0  K_L0                        
+4   rho0  K_S0                        
+5   K*+   pi-                       
+6   K*0   pi0                       
+#	  To large masses can cause infinit loops
+#7  omega  K0                       
+8  omega  K_L0                       
+9  omega  K_S0                       
+#10   K0    pi+ pi-                  
+11   K_L0    pi+ pi-                  
+12   K_S0    pi+ pi-                  
+13   K+    pi- pi0                  
+#14   K0    pi0 pi0                  
+15   K_L0    pi0 pi0                  
+16   K_S0    pi0 pi0                  
+Enddecay
+
+#
+Decay K_1+
+#1   rho+  K0                        
+2   rho+  K_L0                        
+3   rho+  K_S0                        
+4   rho0  K+                        
+5   K*0   pi+                       
+6   K*+   pi0                       
+#   To large masses can cause infinit loops
+7   omega  K+                     
+8   K+    pi+ pi-                 
+#7   K0    pi+ pi0                 
+9   K_L0    pi+ pi0                 
+10   K_S0    pi+ pi0                 
+11   K+    pi0 pi0                 
+Enddecay
+
+#
+Decay K'_1+
+1  K*0  pi+                        
+2  K*+  pi0                        
+#3  rho+ K0                         
+4  rho+ K_L0                         
+5  rho+ K_S0                         
+6  rho0 K+                         
+7  omega K+                        
+8  K+  pi+  pi-                    
+9  K+  pi0  pi0                    
+Enddecay
+
+Decay K'_10
+1  K*+  pi-                        
+2  K*0  pi0                        
+3  rho- K+                         
+#4  rho0 K0                         
+5  rho0 K_L0                         
+6  rho0 K_S0                         
+#7  omega K0                        
+8  omega K_L0                        
+9  omega K_S0                        
+#10  K0  pi+  pi-                   
+11  K_L0  pi+  pi-                   
+12 K_S0  pi+  pi-                   
+#13 K0  pi0  pi0                   
+13 K_L0  pi0  pi0                   
+14  K_S0  pi0  pi0                   
+Enddecay
+
+#
+Decay K_2*+
+#1   K0  pi+                         
+1   K_L0  pi+                         
+2   K_S0  pi+                         
+3   K+  pi0                         
+4   K*0 pi+                         
+5   K*+ pi0                         
+6   K*0 pi+ pi0                     
+7   K*+ pi+ pi-                     
+8   K*+ pi0 pi0                     
+#9   rho+ K0                         
+10   rho+ K_L0                         
+11   rho+ K_S0                         
+12   rho0 K+                         
+Enddecay
+
+Decay K_2*0
+1  K+  pi-                       
+#2  K0  pi0                       
+3  K_L0  pi0                       
+4  K_S0  pi0                       
+5  K*+ pi-                       
+6  K*0 pi0                       
+7  K*0 pi+ pi-                   
+8  K*0 pi0 pi0                   
+9  K*+ pi- pi0                   
+10  rho- K+                       
+#11  rho0 K0                       
+12  rho0 K_L0                       
+13  rho0 K_S0                       
+Enddecay
+
+
+# Decay K*(1410)
+Decay K'*0                    
+1  K+  pi-                    
+#2  K0  pi0                    
+3  K_L0  pi0                    
+4  K_S0  pi0                    
+5  K*+ pi-                    
+6  K*0 pi0                    
+7  rho- K+                    
+#8  rho0 K0                    
+9  rho0 K_L0                    
+10  rho0 K_S0                    
+Enddecay
+#
+
+#
+Decay K'*+                              
+#1  K0  pi+                   
+2  K_L0  pi+                   
+3  K_S0  pi+                   
+4  K+  pi0                    
+5  K*0 pi+                   
+6  K*+ pi0                   
+#7  rho+ K0                   
+8  rho+ K_L0                   
+9  rho+ K_S0                   
+10  rho0 K+                   
+Enddecay
+#
+
+
+
+# Decay K*(1680)
+Decay K''*0                
+1  K+  pi-                
+#2  K0  pi0                
+3  K_L0  pi0                
+4  K_S0  pi0                
+5  K*+ pi-                
+6  K*0 pi0                
+7  rho- K+                
+#8  rho0 K0                
+9  rho0 K_L0                
+10  rho0 K_S0                
+Enddecay
+#
+#
+Decay K''*+                    
+#1  K0  pi+               
+2  K_L0  pi+               
+3  K_S0  pi+               
+4  K+  pi0               
+5  K*0 pi+               
+6  K*+ pi0               
+#7  rho+ K0               
+8  rho+ K_L0               
+9  rho+ K_S0               
+10  rho0 K+               
+Enddecay
+#
+
+#
+#  Light Mesons
+#
+#
+Decay eta
+1   gamma                 
+2   pi0 pi0 pi0                
+3   pi- pi+ pi0               
+4     pi- pi+             
+5     e+  e-              
+6     mu+ mu-             
+7       pi0           
+8   pi+ pi- e+  e-             
+Enddecay
+#
+#
+Decay omega
+1  pi-  pi+  pi0    
+2  pi0
+# #3 included into hadronic          
+#3  pi-  pi+         
+4  eta          
+5  pi0  e+  e-      
+6  pi0  mu+ mu-    
+7  pi+  pi-     
+8  pi0  pi0     
+9  pi+ pi- pi+ pi-  
+Enddecay
+#
+Decay eta'
+1   pi+ pi- eta              
+2   pi0 pi0 eta              
+3   rho0                     
+4   omega                    
+5   gamma           
+6   pi0 pi0 pi0        
+7   mu- mu+      
+Enddecay
+#
+Decay phi
+1  K+   K-                       
+2  K_L0  K_S0                    
+3  rho+ pi-                     
+4  rho0 pi0                     
+5  rho- pi+                     
+6  pi+  pi- pi0                  
+7  eta                       
+8  pi0                       
+9  e+  e-           
+10 mu+ mu-          
+Enddecay
+#
+Decay a_1+
+1  rho0 pi+                      
+2  rho+ pi0                      
+Enddecay
+
+Decay a_10
+1   rho- pi+                       
+2   rho+ pi-                       
+Enddecay
+
+#
+Decay a_2+
+1   rho0 pi+                        
+2   rho+ pi0                        
+3   eta  pi+                        
+4   omega pi+ pi0                    
+#5   anti-K0   K+                     
+6   K_L0   K+                     
+7   K_S0   K+                     
+8   pi+                          
+Enddecay
+
+
+Decay a_20
+1  rho+ pi-                       
+2  rho- pi+                       
+3  eta  pi0                       
+4  omega pi+ pi-                  
+5  K+   K-                        
+6  K_L0  K_L0                     
+7  K_S0  K_S0                     
+8  pi0                        
+Enddecay
+#
+Decay b_1+
+1   omega pi+                      
+2   pi+                        
+Enddecay
+#
+
+Decay b_10
+1  omega pi0                       
+2  pi0                         
+Enddecay
+#
+Decay a_00
+1    eta  pi0                     
+2    K+   K-                      
+3    K_S0  K_S0                   
+4    K_L0  K_L0                   
+Enddecay
+#
+Decay a_0+
+1   eta  pi+                     
+#2   anti-K0    K+                
+3   K_L0    K+                
+4   K_S0    K+                
+Enddecay
+#
+
+#
+Decay f_0
+1  pi+  pi-                   
+2  pi0  pi0                   
+3  K+   K-                    
+4  K_S0  K_S0                 
+5  K_L0  K_L0                 
+Enddecay
+#
+Decay f'_0
+1  pi+  pi-                      
+2  pi0  pi0                      
+3  pi+ pi+ pi- pi-               
+4  pi+ pi- pi0 pi0               
+5  K+   K-                       
+6  K_S0  K_S0                    
+7  K_L0  K_L0                    
+Enddecay
+#
+Decay f_1
+1  rho0 pi+  pi-                 
+2  rho0 pi0  pi0                 
+3  rho+ pi-  pi0                 
+4  rho- pi+  pi0                 
+5  a_00  pi0                     
+6  a_0+  pi-                     
+7  a_0-  pi+                     
+8  eta  pi+  pi-                 
+9  eta  pi0  pi0                 
+10  K+   K-   pi0                 
+#11  K0   anti-K0   pi0            
+12  K_L0   K_S0   pi0            
+13  K_L0   K_L0   pi0            
+14  K_S0   K_S0   pi0            
+#15  anti-K0   K+   pi-            
+16  K_L0   K+   pi-            
+17  K_S0   K+   pi-            
+#18  K0   K-   pi+                 
+19  K_L0   K-   pi+                 
+20  K_S0   K-   pi+                 
+21  rho0                    
+Enddecay
+#
+Decay f'_1
+1   K+   K-   pi0                       
+#2   K0   anti-K0   pi0                  
+3   K_L0   K_S0   pi0                  
+4   K_L0   K_L0   pi0                  
+5   K_S0   K_S0   pi0                  
+#6   anti-K0   K+   pi-                  
+7   K_L0   K+   pi-                  
+8   K_S0   K+   pi-                  
+#9   K0   K-   pi+                       
+10   K_L0   K-   pi+                       
+11   K_S0   K-   pi+                       
+Enddecay
+#
+Decay f_2
+1   pi+  pi-                     
+2   pi0  pi0                     
+3   pi+  pi-  pi+  pi-           
+4   pi+  pi-  pi0  pi0           
+5   pi0  pi0  pi0  pi0           
+6   K+   K-                      
+7   K_S0  K_S0                   
+8   K_L0  K_L0                   
+9   eta  eta                    
+Enddecay
+#
+Decay f_0(1500)
+1  eta  eta'                   
+2  eta  eta                    
+3  pi0  pi0  pi0  pi0          
+4  pi+  pi-  pi+  pi-          
+5  pi+  pi-                    
+6  pi0  pi0                    
+7  K+   K-                     
+8  K_S0  K_S0                  
+9  K_L0  K_L0                  
+Enddecay
+#
+Decay f'_2
+1   K+   K-                        
+2   K_S0  K_S0                     
+3   K_L0  K_L0                     
+4   eta  eta                       
+5   pi+  pi-                       
+6   pi0  pi0                       
+Enddecay
+#
+Decay h_1
+1   rho+ pi-                       
+2   rho- pi+                       
+3   rho0 pi0                       
+Enddecay
+#
+Decay h'_1
+1   K*+  K-                        
+2   K*-  K+                        
+#3   anti-K*0  K0                   
+4   anti-K*0  K_L0                   
+5   anti-K*0  K_S0                   
+#6   K*0  anti-K0                   
+7   K*0  K_L0                   
+8   K*0  K_S0                   
+Enddecay
+#         
+Decay rho(2S)+
+1  pi+ pi0                       
+2  pi+ pi+ pi- pi0               
+3  pi+ pi0 pi0 pi0               
+Enddecay
+
+Decay rho(2S)0
+1   pi+ pi-                       
+2   pi+ pi- pi+ pi-               
+3   pi+ pi- pi0 pi0               
+4   pi0 pi0 pi0 pi0               
+Enddecay
+
+Decay eta(1405)
+#1   K+ anti-K0 pi-                
+2   K+ K_L0 pi-                
+3   K+ K_S0 pi-                
+#4   K- K0 pi+                     
+5   K- K_L0 pi+                     
+6   K- K_S0 pi+                     
+7   K+ K- pi0                     
+#8   K0 anti-K0 pi0                
+9   K_L0 K_S0 pi0                
+10   K_L0 K_L0 pi0                
+11   K_S0 K_S0 pi0                
+12   rho0 rho0                       
+13    eta pi+ pi-                  
+14    rho0                     
+Enddecay
+#
+
+Decay f_0(1710)
+#1   K0 anti-K0             
+2   K_L0 K_S0             
+3   K_L0 K_L0             
+4   K_S0 K_S0             
+5   K- K+                  
+Enddecay
+#
+#
+#
+Decay f_2(1950)
+1   K*0 anti-K*0         
+2   K*+ K*-              
+3   pi+ pi-              
+4   pi+ pi- pi+ pi-      
+5   pi+ pi- pi0 pi0      
+6   pi0 pi0 pi0 pi0      
+7   eta eta              
+8   K+ K-                
+9   K_S0  K_S0           
+10  K_L0  K_L0           
+11  gamma              
+Enddecay
+#
+Decay f_4(2050)
+1   pi+ pi-      
+2   pi0 pi0      
+3   K+ K-        
+4   K_S0  K_S0   
+5   K_L0  K_L0   
+6   eta eta      
+7   a_20 pi0     
+8   a_2+ pi-     
+9   a_2- pi+     
+Enddecay
+#
+
+Decay tau-
+1         e-   anti-nu_e   nu_tau 
+2         mu-  anti-nu_mu   nu_tau
+3         pi-  nu_tau             
+4  pi- pi0  nu_tau  
+5  pi- pi- pi+  nu_tau  
+6  pi0 pi0 pi-  nu_tau  
+7         rho- nu_tau 
+8         a_1-  nu_tau
+9         K-   nu_tau 
+10         K*-  nu_tau  
+11         nu_tau     pi-     pi+     pi-     pi0     
+12         nu_tau     pi-     pi0     pi0     pi0     
+13         nu_tau     K-      pi-     K+              
+#14         nu_tau     K0      pi-     anti-K0         
+15         nu_tau     K_L0      pi-     K_S0         
+16         nu_tau     K_L0      pi-     K_L0         
+17         nu_tau     K_S0      pi-     K_S0         
+#18         nu_tau     K-      pi0     K0              
+19         nu_tau     K-      pi0     K_L0              
+20         nu_tau     K-      pi0     K_S0              
+21         nu_tau     K-      pi0     pi0             
+22         nu_tau     K-      pi+     pi-             
+#23         nu_tau     pi-     anti-K0 pi0             
+24         nu_tau     pi-     K_L0 pi0             
+25         nu_tau     pi-     K_S0 pi0             
+26         nu_tau     eta     pi-     pi0             
+# #27 is radiative. comment for ignorePhoton=true
+#27         nu_tau     pi-     pi0             
+28         nu_tau     pi-     pi-     pi+  pi0  pi0   
+29         nu_tau     pi-     pi-     pi-  pi+  pi+   
+30         nu_tau     pi-     pi-  pi-  pi+  pi+  pi0 
+31         nu_tau     pi-     pi-  pi+  pi0  pi0  pi0 
+32         nu_tau     pi-     pi0  pi0  pi0  pi0      
+33         nu_tau     pi-     omega     pi0           
+#34         nu_tau     K-      K0                      
+35         nu_tau     K-      K_L0                      
+35         nu_tau     K-      K_S0                      
+37         nu_tau     K-      omega                   
+Enddecay

@@ -1,0 +1,4 @@
+#include "$EVENTTAGROOT/share/jobOptions_EvenTagSvc.txt"
+ApplicationMgr.TopAlg += { "FillEventTag" };
+//specify general event type
+FillEventTag.GeneralEventType=0;

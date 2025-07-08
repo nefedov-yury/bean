@@ -1,0 +1,39 @@
+//############################################################## -*-C++-*-
+
+ApplicationMgr.DLLs += {"EventTag"};
+ApplicationMgr.ExtSvc += { "EventTagSvc" };
+
+// specify particle property file if you want to replace the default one
+EventTagSvc.pdgFile="$EVENTTAGROOT/share/pdt.table";
+//specify decay code file if you want to replace default one		      
+EventTagSvc.decayCodesFile="$EVENTTAGROOT/share/decay.codes";
+////specify user decay code file if you want to add decay codes which is
+////not specified im main decay_code file
+//EventTagSvc.userDecayCodesFile="userdecay.codes";
+
+
+//// specify list of particles which will trigger new step of decay chain tracing 
+//// in addition to charmed particles
+//EventTagSvc.chainTrigParticles+={"name1","name2","name3"};
+
+//// by default photons is ignored when decay code calculated.
+//// Uncomment, if you want count photons when find decay code (if you want
+//// to identify radiative processes, for example).
+//// Be sure to use proper decay code table.
+//// "$EVENTTAGROOT/share/decayFSR.codes" is usable. 
+// EventTagSvc.ignorePhotons=false;
+
+////
+////  uncomment, if you want to take into account the number of FSR gamma.
+//// in this case ,for example, J/psi->pp,J/psi->pp+1FSR, J/psi+2FSR ... are
+//// treated as a different decay. mainly useless and even dangerouse.
+// EventTagSvc.ignorePhotons=false;
+
+// // uncoment, if you want specify different decay codes for particle and antiparticle
+// // Be sure to uise proper decay code table.
+// EventTagSvc.buildAntiPartTable=false;
+
+//  choose should be K0 replased by it's daughters or not when decay code calculated.
+//  default - true 
+//EventTagSvs.digK0=false;
+

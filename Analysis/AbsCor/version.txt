@@ -1,0 +1,32 @@
+This is rewrote version of AbsCor from Boss:
+  Analysis/PhotonCor/AbsCor
+
+Supported Versions:
+
+6.6.1 == AbsCor-00-00-26
+6.6.2 == 6.6.3 == 6.6.4 == 6.6.5 == AbsCor-00-00-28
+
+
+7.0.2 == 7.0.3 == 7.0.4 == 7.0.5 == 7.0.6 == 7.0.7 == AbsCor-00-00-36
+Notes:
+The Bean does not have 'edgecor' correction, because they use
+functions from the detector description package (see EmcRecGeoSvc).
+
+
+7.0.8 ==  AbsCor-00-00-40 almost the same as
+7.0.9 ==  AbsCor-00-00-41
+Notes:
+AbsCor in Bean does not use the database, but you can read files with
+calibrations in functions:
+      void ReadDatac3p(std::string DataPathc3p, bool info=true);
+      void ReadParMcCor(std::string paraPath, bool info=true);
+      void ReadCorFunpara(std::string CorFunparaPath, bool info=true);
+An example of using these functions is contained in the file:
+BeanUser/TestAbsCor.cxx
+
+The path to the calibration files (on /cvmfs) can be obtained using
+the python3 program 'GetAbsCorFiles.py', see folder bean/scripts/.
+
+7.1.0 == AbsCor-00-01-45 minor changes: the names of three variables
+                         have been changed
+7.1.1 == AbsCor-00-01-46 == AbsCor-00-01-45

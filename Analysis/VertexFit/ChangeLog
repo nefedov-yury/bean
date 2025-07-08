@@ -1,0 +1,46 @@
+2023.09.29 Hao-Kai SUN <sunhk@ihpe.ac.cn>
+    *VertexFit
+		fix a small bug that the total energy not updated after fit
+		thanks to Chengzhi He from PKU for pointing this out.
+
+2022.01.11 Hao-Kai SUN <sunhk@ihep.ac.cn>
+    * Separate VertexExtrapolate and VertexFitRefine out to a new package
+	  Analysis/VertexFitRefine/VertexFitRefine-00-00-01
+
+2021.11.10 Hao-Kai SUN <sunhk@ihep.ac.cn>
+    *VertexFit
+	    -Add a friend class VertexFitRefine declaration
+    *VertexExtrapolate
+	    -Add a new class VertexExtrapolate which can extrapolate the helix of
+		 the charged tracks to any point including the corresponding materials
+		 effects such as energy loss/recovery, multiple scattering, etc.
+    *VertexFitRefine
+	    -Add a new class VertexFitRefine which combines the original VertexFit
+		 and the new VertexExtrapolate to make corrections for helices of
+		 tracks not originating from IP like Lambda(->p pi) or Ks(->pi pi).
+		 The interface functions are designed same as VertexFit therefore
+		 users could easily adopt this method quite easily.
+	*requirements
+	    -Add new dependencies:
+		 1. MdcGeomSvc for extracting geometric structures and materials for
+		    usages in VertexExtrapolate.
+		 2. KalFitAlg for doing the extrapolation using Kalman fitting
+		    algorithm.
+	*jobOptions_VertexDbSvc.txt
+	    -Recover to version 00-02-89 for BOSS 7.0.8
+
+2014.01.02 Ma Tian <mat@ihep.ac.cn>
+	*VertexFit
+		-Add method setMagCorrFactor(const double factor = 1.000).
+	*SecondVertexFit
+		-Add method setMagCorrFactor(const double factor = 1.000).
+	*These two methods are aimed to handle B Field corrected data if needed.
+
+2010.12.08 Ma Tian <mat@ihep.ac.cn>
+	*Set a looser chisquare cut in Class VertexFit. Default value changes from 500 to 1000.
+	*Set a looser chisquare cut in Class SecondVertexFit. Default value changes from 100 to 500.
+	*The default number of iteration in Class SecondVertexFit changes from 1 to 10.
+
+2010.09.04 Ma Tian <mat@ihep.ac.cn>
+	*Remove the dependency on Class Helix in Class WTrackParameter.
+	*Add some kindly comments in Class WTrackParameter.

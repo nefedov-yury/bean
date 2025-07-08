@@ -1,0 +1,15 @@
+1)create new decay.codes file, based on current decay table for EvtGen, and optimized for 
+	ignorePhoton=true option;
+2)Topology information is now filled off-resonance events
+3)tau decay codes now filled for tau-tau events
+4)GeneralEventType now calculated automaticaly, if initial value is 0;
+5)new manual added
+
+version 1.05
+1) modified to recognize FSR photons (with pdg=-22). new option 
+  "ignoreFSR" is added. defoult value is true.
+  If  ignoreFSR=true while ignorePhoton=false, radiative
+  decays(specified in decay table for EvtGen) is correctly recognized,
+  while FSR photons is ignored.
+   new decay code table is added for this option: decayFSR.codes  
+Default behavie is still ignorePhoton=true, like 1.04

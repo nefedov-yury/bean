@@ -1,0 +1,1353 @@
+#
+Decay psi(2S)
+0.00735    e+   e-                PHOTOS VLL;
+0.0073    mu+  mu-                PHOTOS VLL;
+0.0028    tau+  tau-              PHOTOS VLL;
+0.3180    J/psi  pi+ pi-                 VVPIPI;
+0.1646    J/psi  pi0 pi0                 VVPIPI;
+0.0309    J/psi  eta                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.00126   J/psi  pi0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+# V-> gamma S    Partial wave (L,S)=(0,1)
+0.092    gamma  chi_c0   HELAMP  1. 0. +1. 0.;
+# V-> gamma V    Partial wave (L,S)=(0,1)
+0.087    gamma  chi_c1   HELAMP  1. 0.  1. 0. 
+                                 -1. 0. -1. 0.;
+# V-> gamma T    Partial wave (L,S)=(0,1)
+0.081    gamma  chi_c2   HELAMP 2.4494897 0.   1.7320508 0.   1.        0.
+                                 1.        0.   1.7320508 0.   2.4494897 0.;
+0.0026    gamma eta_c                    PHSP;
+0.00015   gamma eta'                     PHSP;
+0.00021   gamma f_2                      PHSP;
+0.0035    pi+ pi- pi+ pi- pi+ pi- pi0    PHSP;
+0.00035   pi+ pi- pi+ pi- pi+ pi-        PHSP;
+0.00266   pi+ pi- pi+ pi- pi0            PHSP;
+0.00018   b_1+ pi-                       PHSP;
+0.00018   b_1- pi+                       PHSP;
+0.000185  omega K+ K-                    PHSP;
+0.00072   K+ K- pi+ pi-                  PHSP;
+0.0006    p+  anti-p- pi+ pi-            PHSP;
+0.000133  p+  anti-p- pi0                PHSP;
+0.000265  p+  anti-p-                    PHSP;
+0.0005    K_1+ K-                        PHSP;
+0.0005    K_1- K+                        PHSP;
+0.00022   rho0 pi+ pi-                   PHSP;
+0.00025   Lambda0 anti-Lambda0           PHSP;
+0.000128  Delta++  anti-Delta--          PHSP;
+0.00021   Sigma0  anti-Sigma0            PHSP;
+#0.00011   Sigma*+  anti-Sigma*-          PHSP;
+0.00015   Xi- anti-Xi+                   PHSP;
+0.00008   pi+ pi-                        PHSP;
+0.00010   K+ K-                          PHSP;
+0.00007   phi K- K+                      PHSP;
+0.000113  phi pi- pi+                    PHSP;
+0.00022   pi+  pi- K_S0 K_S0             PHSP;
+0.000011  rho0 pi0                       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.000011  rho+ pi-                       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.000011  rho- pi+                       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.000168  pi+  pi- pi0                   PHSP;
+#0.0008 h_c pi0 PHSP;
+0.1875    LUNDCHARM;
+Enddecay
+
+#
+Decay chi_c0
+0.0130    gamma J/psi                    PHSP;
+0.000276  gamma gamma                    PHSP;
+0.00022   p+ anti-p-                     PHSP;
+0.00044   Lambda0 anti-Lambda0           PHSP;
+0.0048    pi+  pi-                       PHSP;
+0.0054    K+   K-                        PHSP;
+0.0028    K_S0 K_S0                      PHSP;
+0.0009    phi phi                        PHSP;
+0.0023   omega omega                     PHSP;
+0.0018   anti-K*0 K*0                    PHSP;
+0.0019    eta eta                        PHSP;
+0.0028    f_0 f_0                        PHSP;
+0.0060    K*0  K-  pi+                   PHSP;
+0.0060    anti-K*0  K+  pi-              PHSP;
+0.0060    K*+  anti-K0   pi-             PHSP;
+0.0060    K*-  K0  pi+                   PHSP;
+0.0160    rho0 pi+ pi-                   PHSP;
+0.0160    rho+ pi- pi0                   PHSP;
+0.0160    rho- pi+ pi0                   PHSP;
+0.0241    pi+ pi- pi+ pi-                PHSP;
+0.0200    pi+  pi-  K+  K-               PHSP;
+0.0061    K_S0 K_S0 pi+ pi-              PHSP;
+0.0021    pi+  pi-  p+  anti-p-          PHSP;
+0.0021    K+ K- K+ K-                    PHSP;
+0.0015    K+ K- K_S0 K_S0                PHSP;
+0.0119    pi+ pi- pi+ pi- pi+ pi-        PHSP;
+0.87752         rndmflav        anti-rndmflav   PYTHIA         12;
+Enddecay
+#
+Decay chi_c1
+0.356     J/psi gamma                    VVP 1.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0;
+0.0076    pi+ pi- pi+ pi-                PHSP;
+0.000067  p+ anti-p-                     PHSP;
+0.0058    pi+ pi- pi+ pi- pi+ pi-        PHSP;
+0.0045    pi+  pi-  K+  K-               PHSP;
+0.0039    rho0 pi+ pi-                   PHSP;
+0.0039    rho+ pi- pi0                   PHSP;
+0.0039    rho- pi+ pi0                   PHSP;
+0.0016    anti-K*0  K+  pi-              PHSP;
+0.0016    K*0 K- pi+                     PHSP;
+0.0016    anti-K*0 K*0                   PHSP;
+0.0016    K*+  anti-K0   pi-             PHSP;
+0.0016    K*-  K0  pi+                   PHSP;
+0.00049   pi+  pi-  p+  anti-p-          PHSP;
+0.00077   pi+ pi- K_S0 K_S0              PHSP;
+0.00024   Lambda0 anti-Lambda0           PHSP;
+0.00115   K+ anti-K0  pi-                PHSP;
+0.00115   K- K0 pi+                      PHSP;
+0.00039   K+ K- K+ K-                    PHSP;
+0.651028  rndmflav        anti-rndmflav   PYTHIA         12;
+Enddecay
+
+
+#
+Decay chi_c2
+0.202      gamma J/psi                    PHSP;
+0.000259   gamma gamma                    PHSP;
+0.000066   p+ anti-p-                     PHSP;
+0.0014     pi+  pi-                       TSS;
+0.0123     pi+ pi- pi+ pi-                PHSP;
+0.00141    K+ K- K+ K-                    PHSP;
+0.0086     pi+ pi- pi+ pi- pi+ pi-        PHSP;
+0.0099     pi+  pi-  K+  K-               PHSP;
+0.007      rho0 pi+ pi-                   PHSP;
+0.007      rho+ pi- pi0                   PHSP;
+0.007      rho- pi+ pi0                   PHSP;
+0.00077    K+   K-                        TSS;
+0.00067    K_S0 K_S0                      PHSP;
+0.0026     pi+  pi- K_S0 K_S0             PHSP;
+0.0019     phi phi                        PHSP;
+0.0024     anti-K*0  K+  pi-              PHSP;
+0.0024     K*0  K-  pi+                   PHSP;
+0.0038     anti-K*0  K*0                  PHSP;
+0.0024     K*+  anti-K0   pi-             PHSP;
+0.0024     K*-  K0  pi+                   PHSP;
+0.00132    pi+  pi-  p+  anti-p-          PHSP;
+0.00027    Lambda0 anti-Lambda0           PHSP;
+0.731982   rndmflav        anti-rndmflav   PYTHIA         12;
+Enddecay
+#
+#
+#    cc=  mesons
+#
+Decay eta_c
+0.007     rho0 rho0                      SVV_HELAMP 1.0 0.0 0.0 0.0 -1.0 0.0;
+0.0013    p+  anti-p-                        PHSP;
+0.0027    phi phi                        SVV_HELAMP 1.0 0.0 0.0 0.0 -1.0 0.0;
+0.0029    phi K+ K- PHSP;
+#0.007     rho0 rho0                      SVV_HELAMP 1.0 0.0 0.0 0.0 -1.0 0.0;
+0.014     rho+ rho-                      SVV_HELAMP 1.0 0.0 0.0 0.0 -1.0 0.0;
+0.012     pi+ pi- pi+ pi-                PHSP;
+0.0015    K+  K-  K+ K-                  PHSP;
+0.015     K+  K-  pi+ pi-                PHSP;
+0.0327    eta  pi+ pi-                   PHSP;
+0.0163    eta  pi0 pi0                   PHSP;
+0.0273    eta' pi+ pi-                   PHSP;
+0.0137    eta' pi0 pi0                   PHSP;  
+0.0095    pi0  K+  K-                    PHSP;  
+0.0233    K+ anti-K0  pi-                      PHSP;
+0.0233    K- K0 pi+                      PHSP;
+0.0117    K0 anti-K0 pi0                 PHSP;
+0.00451   K*+ K*-                        SVV_HELAMP 1.0 0.0 0.0 0.0 -1.0 0.0;
+0.00451   K*0 anti-K*0                   SVV_HELAMP 1.0 0.0 0.0 0.0 -1.0 0.0 ;
+0.0100    K*0 K- pi+                     PHSP;  
+0.0100    anti-K*0 K+ pi-                     PHSP;
+# PDG 2007, pingrg
+0.0200    pi+ pi- pi+ pi- pi+ pi-            PHSP;
+0.0100    pi+ pi- pi+ pi- K+ K-              PHSP;
+0.0010    Lambda0 anti-Lambda0               PHSP;
+0.7258         rndmflav        anti-rndmflav   PYTHIA         12;
+Enddecay
+
+#
+Decay eta_c(2S)
+ 0.019     K+ anti-K0  pi-                PHSP;
+ 0.019     K- K0 pi+                      PHSP;
+ 0.0095    pi0  K+  K-                    PHSP;
+ 0.0095    K0 anti-K0 pi0                 PHSP;
+ 0.943     rndmflav        anti-rndmflav   PYTHIA         12;
+Enddecay
+#
+Decay J/psi
+# J/psi --> ll
+0.0594    e+   e-                PHOTOS  VLL;
+0.0593    mu+  mu-               PHOTOS  VLL;
+# J/psi --> VP
+0.00565   rho+  pi-        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.00565   rho-  pi+        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.00560   rho0  pi0        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.00174   omega eta        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.00074   phi   eta        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.00045   omega pi0        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0004    phi   eta'       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.000193  rho0  eta        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.000182  omega eta'       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.000105  rho0  eta'       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.00250     K*- K+         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.00250     K*+ K-         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.00210   anti-K*0 K0      VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.00210   K*0 anti-K0      VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+# J/psi --> omega P P
+0.0029    omega pi+ pi-            PHSP;
+0.0043    omega f_2                PHSP;
+0.0034    omega pi0 pi0            PHSP;
+0.00071   omega K+  K-             PHSP;
+0.00071   omega anti-K0  K0        PHSP;
+0.00048   omega f_0(1710)       PHSP;
+0.00130   omega  p+ anti-p-        PHSP;
+0.00068   omega f'_1               PHSP;
+0.00014   omega f_0                PHSP;
+0.0040    omega pi+ pi- pi0        PHSP;
+0.0085    omega pi+ pi+ pi- pi-    PHSP;
+0.00177   omega K*0 anti-K0        PHSP;
+0.00177   omega K*+ K-             PHSP;
+0.00177   omega K*- K+             PHSP;
+0.00145    omega  K+ K_S0 pi-      PHSP;
+0.00145    omega  K- K_S0 pi+      PHSP;
+
+# J/psi --> phi p p
+0.00068    phi K*0 anti-K0         PHSP;
+0.00068    phi K*+ K-              PHSP;
+0.00068    phi K*- K+              PHSP;
+0.00166    phi pi+ pi- pi+ pi-     PHSP;
+0.00074    phi K+ K-               PHSP;
+0.00074    phi K0 anti-K0          PHSP;
+0.00036    phi f_0(1710)        PHSP;
+0.00080    phi f'_2                PHSP;
+0.00094    phi pi+ pi-             PHSP;
+0.00036    phi  K+ K_S0 pi-        PHSP;
+0.00036    phi  K- K_S0 pi+        PHSP;
+0.00032    phi  f_0                PHSP;  
+0.00026    phi  f_1                PHSP;
+0.000045   phi  p+ anti-p-         PHSP;
+
+0.00043    phi  f'_0               PHSP;
+0.00073    phi  f_0(1500)          PHSP;
+0.00062    phi  f_0(1790)       PHSP;   
+
+0.00041    phi  f_2                PHSP;
+0.00016    phi  sigma_0            PHSP;
+
+# J/psi --> other hadronic resonance
+0.0109     a_20   rho0             PHSP;
+0.00335    K*0   anti-K_2*0        PHSP;
+0.00335    anti-K*0 K_2*0          PHSP;
+0.00190    K'_1+  K-               PHSP;
+0.00190    K'_1-  K+               PHSP;
+0.00150    b_1+   pi-              PHSP;
+0.00150    b_1-   pi+              PHSP;
+0.00230    b_10   pi0              PHSP;  
+0.0016     Delta++ anti-p- pi-     PHSP;
+0.00110    Delta++ anti-Delta--    PHSP;
+0.00103    Sigma*- anti-Sigma*+    PHSP;
+0.00103    Sigma*+ anti-Sigma*-    PHSP;
+0.0009     p+ anti-p-  eta'        PHSP;  
+0.00059    Xi*- anti-Xi+           PHSP;
+0.00051    p+ K- anti-Sigma*0      PHSP;
+0.000032   Xi*0  anti-Xi0          PHSP;
+0.00031    Sigma*- anti-Sigma+     PHSP;
+0.00031    Sigma*+ anti-Sigma-     PHSP;
+# J/psi --> decays into stable hadrons
+0.0337     pi+ pi- pi+ pi- pi0                     PHSP;
+0.029      pi+ pi- pi+ pi- pi+ pi- pi0             PHSP;
+0.0202     pi+ pi- pi0                             PHSP;
+0.012      pi+ pi- pi0 K+ K-                       PHSP;
+0.0090     pi+ pi- pi+ pi- pi+ pi- pi+ pi- pi0     PHSP;
+0.0062     pi+ pi- K+ K-                           PHSP;
+0.00102    K+ K- pi0                               PHSP;
+0.00102    K0 anti-K0 pi0                          PHSP;
+0.00204    anti-K0 K+ pi-                          PHSP;
+0.00204    K0 K- pi+                               PHSP;
+0.0060     p+ anti-p- pi+ pi-                      PHSP;
+0.00355    pi+ pi- pi+ pi-                         PHSP;
+0.0043     pi+ pi- pi+ pi- pi+ pi-                 PHSP;
+0.0162     pi+ pi- pi0 pi+ pi- pi0                 PHSP;
+0.00226    pi+ pi- pi+ pi- eta                     PHSP;
+0.00072    pi+ pi- pi+ pi- pi+ pi- eta             PHSP;
+0.004      n0 anti-n0 pi+ pi-                      PHSP;
+0.00131    Sigma0 anti-Sigma0                      PHSP;
+0.0047     pi+ pi- pi+ pi- K+ K-         PHSP;
+0.0023     p+ anti-p- pi+ pi- pi0        PHSP;
+0.00217    p+ anti-p-                    PHSP;
+0.00209    p+ anti-p- eta                PHSP;
+0.00236    p+ anti-n0 pi-                PHSP;
+0.00247    anti-p- n0 pi+                PHSP;
+0.0022     n0  anti-n0                   PHSP;
+0.0018     Xi0  anti-Xi0                 PHSP;
+0.00154    Lambda0 anti-Lambda0          PHSP;
+0.00109    p+ anti-p- pi0                PHSP;
+0.00106    Lambda0 anti-Sigma- pi+       PHSP;
+0.00106    Lambda0 anti-Sigma+ pi-       PHSP;
+0.00106    anti-Lambda0 Sigma+ pi-       PHSP;
+0.00106    anti-Lambda0 Sigma- pi+       PHSP;
+0.00089    p+ K-  anti-Lambda0           PHSP;
+0.00078    K+ K- K+ K-                   PHSP;
+0.00029    p+ K- anti-Sigma0             PHSP;
+0.000237   K+ K-                         PHSP;
+0.000146   K_S0   K_L0                   PHSP;
+0.00022    Lambda0 anti-Lambda0 pi0      PHSP;
+0.000147   pi+ pi-                       PHSP;
+# J/psi --> Radiative Decays
+0.0130     gamma eta_c                     PHSP;
+0.0083     gamma pi+ pi- pi0 pi0           PHSP;
+0.0061     gamma eta pi+ pi-               PHSP;
+0.0048     gamma eta(1405)              PHSP;
+0.00062    gamma eta2(1870)             PHSP;
+0.0030     gamma rho+ rho-                 PHSP;
+0.0015     gamma rho0 rho0                 PHSP;
+0.00471    gamma eta'                      PHSP;
+0.0028     gamma pi+ pi- pi+ pi-           PHSP;
+0.0021     gamma K+ K- pi+ pi-             PHSP;
+0.0003     gamma f_4(2050)              PHSP; 
+0.00159    gamma omega omega               PHSP;
+0.00138    gamma f_2                       PHSP;
+0.00085    gamma f_0(1710)              PHSP;
+0.00098    gamma eta                       PHSP;
+0.00079    gamma f'_1                      PHSP;
+0.00061    gamma f_1                       PHSP;
+0.00045    gamma f_1(1510)              PHSP; 
+0.00045    gamma f'_2                      PHSP;
+0.00070    gamma f_2(1950)              PHSP; 
+0.00014    gamma K*0 anti-K*0              PHSP;
+0.00026    gamma K*+ K*-                   PHSP;
+0.00040    gamma phi phi                   PHSP;
+0.00038    gamma p+ anti-p-                PHSP;
+0.00029    gamma eta(2225)              PHSP; 
+0.00013    gamma eta(1760)              PHSP; 
+0.00022    gamma x(1835)                PHSP; 
+0.000033   pi0 gamma                       PHSP;
+0.0088     gamma e+   e-                   PHSP;
+
+0.42    LUNDCHARM;
+
+Enddecay
+
+#
+#
+#   Light Baryons
+#
+Decay Lambda0
+0.6390     p+  pi-                       PHSP;
+0.3580     n0  pi0                       PHSP;
+0.00175    n0  gamma                     PHSP;
+0.00084    p+  pi-  gamma                PHSP;
+0.000832   p+  e-   anti-nu_e           PHOTOS PHSP;
+0.000157   p+  mu-  anti-nu_mu          PHOTOS PHSP;
+Enddecay
+
+Decay anti-Lambda0
+0.6390     anti-p-  pi+                      PHSP;
+0.3580     anti-n0  pi0                      PHSP;
+0.00175    anti-n0  gamma                     PHSP;
+0.00084    anti-p-  pi+  gamma                PHSP;
+0.000832   anti-p-  e+   nu_e       PHOTOS   PHSP;
+0.000157   anti-p-  mu+  nu_mu      PHOTOS    PHSP;
+Enddecay
+#
+Decay Lambda(1405)0
+0.3333    Sigma+   pi-    PHSP;
+0.3333    Sigma-   pi+    PHSP;
+0.3333    Sigma0   pi0    PHSP;
+Enddecay
+#
+Decay anti-Lambda(1405)0
+0.3333    anti-Sigma+   pi-   PHSP;
+0.3333    anti-Sigma-   pi+   PHSP;
+0.3333    anti-Sigma0   pi0   PHSP;
+Enddecay
+#
+Decay Lambda(1520)0
+0.23    p+     K-       PHSP;
+0.23    n0   anti-K0    PHSP;
+0.14    Sigma+   pi-    PHSP;
+0.14    Sigma-   pi+    PHSP;
+0.14    Sigma0   pi0    PHSP;
+0.0333  Lambda0  pi0  pi0                       PHSP;
+0.0667  Lambda0  pi+  pi-                       PHSP;
+0.003   Sigma+   pi-  pi0   PHSP;
+0.003   Sigma-   pi+  pi0   PHSP;
+0.001   Sigma0   pi0  pi0   PHSP;
+0.002   Sigma0   pi+  pi-   PHSP;
+0.011   Lambda0  gamma    PHSP;
+Enddecay
+#
+Decay anti-Lambda(1520)0
+0.23 anti-p-     K+    PHSP;
+0.23 anti-n0     K0    PHSP;
+0.14    anti-Sigma-   pi+   PHSP;
+0.14    anti-Sigma+   pi-   PHSP;
+0.14    anti-Sigma0   pi0   PHSP;
+0.0333  anti-Lambda0  pi0  pi0                  PHSP;
+0.0667  anti-Lambda0  pi+  pi-                  PHSP;
+0.003   anti-Sigma+   pi-  pi0   PHSP;
+0.003   anti-Sigma-   pi+  pi0   PHSP;
+0.001   anti-Sigma0   pi0  pi0   PHSP;
+0.002   anti-Sigma0   pi+  pi-   PHSP;
+0.011   anti-Lambda0  gamma   PHSP;
+Enddecay
+#
+Decay Lambda(1600)0
+0.176   p+     K-    PHSP;
+0.176   n0   anti-K0    PHSP;
+0.216    Sigma+   pi-    PHSP;
+0.216    Sigma-   pi+    PHSP;
+0.216    Sigma0   pi0    PHSP;
+Enddecay
+#
+Decay anti-Lambda(1600)0
+0.176   anti-p-     K+   PHSP;
+0.176   anti-n0   K0    PHSP;
+0.216    anti-Sigma+   pi-   PHSP;
+0.216   anti-Sigma-   pi+   PHSP;
+0.216   anti-Sigma0   pi0   PHSP;
+Enddecay
+#
+Decay Lambda(1670)0
+0.10   p+     K-    PHSP;
+0.10   n0   anti-K0    PHSP;
+0.16    Sigma+   pi-    PHSP;
+0.16    Sigma-   pi+    PHSP;
+0.16    Sigma0   pi0    PHSP;
+0.32    Lambda0  eta                            PHSP;
+Enddecay
+#
+Decay anti-Lambda(1670)0
+0.10   anti-p-     K+   PHSP;
+0.10   anti-n0   K0    PHSP;
+0.16    anti-Sigma+   pi-   PHSP;
+0.16    anti-Sigma-   pi+   PHSP;
+0.16    anti-Sigma0   pi0   PHSP;
+0.32    anti-Lambda0   eta                       PHSP;
+Enddecay
+#
+Decay Lambda(1690)0
+0.125   p+     K-    PHSP;
+0.125   n0   anti-K0    PHSP;
+0.10    Sigma+   pi-    PHSP;
+0.10    Sigma-   pi+    PHSP;
+0.10    Sigma0   pi0    PHSP;
+0.0833  Lambda0  pi0  pi0                       PHSP;
+0.1667  Lambda0  pi+  pi-                       PHSP;
+0.067   Sigma+   pi-  pi0   PHSP;
+0.067   Sigma-   pi+  pi0   PHSP;
+0.022   Sigma0   pi0  pi0   PHSP;
+0.044   Sigma0   pi+  pi-   PHSP;
+Enddecay
+#
+Decay anti-Lambda(1690)0
+0.125   anti-p-     K+    PHSP;
+0.125   anti-n0   K0    PHSP;
+0.10    anti-Sigma+   pi-    PHSP;
+0.10    anti-Sigma-   pi+    PHSP;
+0.10    anti-Sigma0   pi0    PHSP;
+0.0833  anti-Lambda0  pi0  pi0                       PHSP;
+0.1667  anti-Lambda0  pi+  pi-                       PHSP;
+0.067   anti-Sigma+   pi-  pi0   PHSP;
+0.067   anti-Sigma-   pi+  pi0   PHSP;
+0.022   anti-Sigma0   pi0  pi0   PHSP;
+0.044   anti-Sigma0   pi+  pi-   PHSP;
+Enddecay
+#
+Decay Lambda(1800)0
+0.165   p+     K-    PHSP;
+0.165   n0   anti-K0    PHSP;
+0.08    Sigma+   pi-    PHSP;
+0.08    Sigma-   pi+    PHSP;
+0.08    Sigma0   pi0    PHSP;
+0.003    Sigma*+   pi-    PHSP;
+0.003    Sigma*-   pi+    PHSP;
+0.004    Sigma*0   pi0    PHSP;
+0.21   p+     K*-    PHSP;
+0.21   n0   anti-K*0    PHSP;
+Enddecay
+#
+Decay anti-Lambda(1800)0
+0.165   anti-p-     K+    PHSP;
+0.165   anti-n0   K0    PHSP;
+0.08    anti-Sigma+   pi-    PHSP;
+0.08    anti-Sigma-   pi+    PHSP;
+0.08    anti-Sigma0   pi0    PHSP;
+0.003    anti-Sigma*+   pi-    PHSP;
+0.003    anti-Sigma*-   pi+    PHSP;
+0.004    anti-Sigma*0   pi0    PHSP;
+0.21   anti-p-     K*+    PHSP;
+0.21   anti-n0   K*0    PHSP;
+Enddecay
+#
+Decay Lambda(1810)0
+0.165   p+     K-    PHSP;
+0.165   n0   anti-K0    PHSP;
+0.08    Sigma+   pi-    PHSP;
+0.08    Sigma-   pi+    PHSP;
+0.08    Sigma0   pi0    PHSP;
+0.003    Sigma*+   pi-    PHSP;
+0.003    Sigma*-   pi+    PHSP;
+0.004    Sigma*0   pi0    PHSP;
+0.21   p+     K*-    PHSP;
+0.21   n0   anti-K*0    PHSP;
+Enddecay
+#
+Decay anti-Lambda(1810)0
+0.165   anti-p-     K+    PHSP;
+0.165   anti-n0   K0    PHSP;
+0.08    anti-Sigma+   pi-    PHSP;
+0.08    anti-Sigma-   pi+    PHSP;
+0.08    anti-Sigma0   pi0    PHSP;
+0.003    anti-Sigma*+   pi-    PHSP;
+0.003    anti-Sigma*-   pi+    PHSP;
+0.004    anti-Sigma*0   pi0    PHSP;
+0.21   anti-p-     K*+    PHSP;
+0.21   anti-n0   K*0    PHSP;
+Enddecay
+#
+Decay Lambda(1820)0
+0.34     p+     K-                             PHSP;
+0.34     n0   anti-K0                          PHSP;
+0.06    Sigma+   pi-                            PHSP;
+0.06    Sigma-   pi+                            PHSP;
+0.06    Sigma0   pi0                            PHSP;
+0.04    Sigma*+   pi-                            PHSP;
+0.04    Sigma*-   pi+                            PHSP;
+0.04    Sigma*0   pi0                            PHSP;
+0.01    Lambda0  eta                            PHSP;
+0.003   Sigma+   pi-  pi0                       PHSP;
+0.004   Sigma-   pi+  pi0                       PHSP;
+0.001   Sigma0   pi0  pi0                       PHSP;
+0.002   Sigma0   pi+  pi-                       PHSP;
+Enddecay
+#
+Decay anti-Lambda(1820)0
+0.34     anti-p-     K+                             PHSP;
+0.34     anti-n0   K0                          PHSP;
+0.06    anti-Sigma+   pi-                            PHSP;
+0.06    anti-Sigma-   pi+                            PHSP;
+0.06    anti-Sigma0   pi0                            PHSP;
+0.04    anti-Sigma*+   pi-                            PHSP;
+0.04    anti-Sigma*-   pi+                            PHSP;
+0.04    anti-Sigma*0   pi0                            PHSP;
+0.01    anti-Lambda0  eta                            PHSP;
+0.003  anti-Sigma+   pi-  pi0                       PHSP;
+0.004  anti-Sigma-   pi+  pi0                       PHSP;
+0.001  anti-Sigma0   pi0  pi0                       PHSP;
+0.002  anti-Sigma0   pi+  pi-                       PHSP;
+Enddecay
+#
+Decay Lambda(1830)0
+0.05     p+     K-                             PHSP;
+0.05     n0   anti-K0                          PHSP;
+0.24    Sigma+   pi-                            PHSP;
+0.24    Sigma-   pi+                            PHSP;
+0.24    Sigma0   pi0                            PHSP;
+0.06    Sigma*+   pi-                            PHSP;
+0.06    Sigma*-   pi+                            PHSP;
+0.06    Sigma*0   pi0                            PHSP;
+Enddecay
+#
+Decay anti-Lambda(1830)0
+0.05     anti-p-     K+                             PHSP;
+0.05     anti-n0   K0                          PHSP;
+0.24    anti-Sigma+   pi-                            PHSP;
+0.24    anti-Sigma-   pi+                            PHSP;
+0.24    anti-Sigma0   pi0                            PHSP;
+0.06    anti-Sigma*+   pi-                            PHSP;
+0.06    anti-Sigma*-   pi+                            PHSP;
+0.06    anti-Sigma*0   pi0                            PHSP;
+Enddecay
+#
+#
+Decay Sigma(1660)0
+0.07     p+     K-                             PHSP;
+0.07     n0   anti-K0                          PHSP;
+0.16   Lambda0 pi0                             PHSP;
+0.35    Sigma+   pi-                            PHSP;
+0.35    Sigma-   pi+         PHSP;
+Enddecay
+#
+Decay anti-Sigma(1660)0
+0.07     anti-p-     K+                             PHSP;
+0.07     anti-n0   K0                          PHSP;
+0.16   anti-Lambda0 pi0                             PHSP;
+0.35    anti-Sigma+   pi-                            PHSP;
+0.35    anti-Sigma-   pi+      PHSP;
+Enddecay
+#
+Decay Sigma(1670)0
+0.07     p+     K-                             PHSP;
+0.07     n0   anti-K0                          PHSP;
+0.16   Lambda0 pi0                             PHSP;
+0.35    Sigma+   pi-                            PHSP;
+0.35    Sigma-   pi+         PHSP;
+Enddecay
+#
+Decay anti-Sigma(1670)0
+0.07     anti-p-     K+                             PHSP;
+0.07     anti-n0   K0                          PHSP;
+0.16   anti-Lambda0 pi0                             PHSP;
+0.35    anti-Sigma+   pi-                            PHSP;
+0.35    anti-Sigma-   pi+      PHSP;
+Enddecay
+#
+Decay Sigma(1775)0
+0.215     p+     K-                             PHSP;
+0.215     n0   anti-K0                          PHSP;
+0.20   Lambda0 pi0                             PHSP;
+0.02  Sigma+   pi-                            PHSP;
+0.02  Sigma-   pi+         PHSP;
+0.055  Sigma*+   pi-                            PHSP;
+0.055  Sigma*-   pi+         PHSP;
+0.22   Lambda(1520)0 pi0                             PHSP;
+Enddecay
+#
+Decay anti-Sigma(1775)0
+0.215     anti-p-     K+                             PHSP;
+0.215     anti-n0   K0                          PHSP;
+0.20   anti-Lambda0 pi0                             PHSP;
+0.02  anti-Sigma+   pi-                            PHSP;
+0.02  anti-Sigma-   pi+         PHSP;
+0.055  anti-Sigma*+   pi-                            PHSP;
+0.055  anti-Sigma*-   pi+         PHSP;
+0.22   anti-Lambda(1520)0 pi0                             PHSP;
+Enddecay
+Decay Sigma+
+0.5157    p+  pi0                       PHSP;
+0.4831    n0  pi+                       PHSP;
+0.0012    p+  gamma                      PHSP;
+Enddecay
+Decay anti-Sigma-
+0.5157    anti-p-  pi0                      PHSP;
+0.4831    anti-n0  pi-                      PHSP;
+0.0012    anti-p-  gamma                     PHSP;
+Enddecay
+#
+Decay Delta+
+0.6630    p+  pi0                       PHSP;
+0.3310    n0  pi+                       PHSP;
+0.0060    p+  gamma                      PHSP;
+Enddecay
+Decay anti-Delta-
+0.6630    anti-p-  pi0                      PHSP;
+0.3310    anti-n0  pi-                      PHSP;
+0.0060    anti-p-  gamma                     PHSP;
+Enddecay
+#
+Decay Delta++
+1.0000    p+  pi+                       PHSP;
+Enddecay
+Decay anti-Delta--
+1.0000    anti-p- pi-                       PHSP;
+Enddecay
+#
+Decay Xi*0
+0.3330    Xi0   pi0                     PHSP;
+0.6670    Xi-   pi+                     PHSP;
+Enddecay
+Decay anti-Xi*0
+0.3330    anti-Xi0   pi0                    PHSP;
+0.6670    anti-Xi+   pi-                    PHSP;
+Enddecay
+#
+Decay Delta0
+0.3310    p+    pi-                     PHSP;
+0.6630    n0    pi0                     PHSP;
+0.0060    n0    gamma                    PHSP;
+Enddecay
+Decay anti-Delta0
+0.3310    anti-p-   pi+                     PHSP;
+0.6630    anti-n0   pi0                     PHSP;
+0.0060    anti-n0   gamma                    PHSP;
+Enddecay
+#
+Decay Delta-
+1.0000    n0    pi-                     PHSP;
+Enddecay
+Decay anti-Delta+
+1.0000    anti-n0   pi+                     PHSP;
+Enddecay
+#
+Decay Sigma-
+1.0000    n0    pi-                     PHSP;
+Enddecay
+Decay anti-Sigma+
+1.0000    anti-n0   pi+                     PHSP;
+Enddecay
+#
+Decay Sigma0
+1.0000    gamma  Lambda0                     PHSP;
+Enddecay
+Decay anti-Sigma0
+1.0000    gamma  anti-Lambda0                   PHSP;
+Enddecay
+#
+Decay Sigma*-
+0.8800    Lambda0   pi-                     PHSP;
+0.0600    Sigma0  pi-                     PHSP;
+0.0600    Sigma-  pi0                     PHSP;
+Enddecay
+Decay anti-Sigma*+
+0.8800    anti-Lambda0  pi+                    PHSP;
+0.0600    anti-Sigma0  pi+                    PHSP;
+0.0600    anti-Sigma+  pi0                    PHSP;
+Enddecay
+#
+Decay Sigma*+
+0.8800    Lambda0   pi+                     PHSP;
+0.0600    Sigma+  pi0                     PHSP;
+0.0600    Sigma0  pi+                     PHSP;
+Enddecay
+Decay anti-Sigma*-
+0.8800    anti-Lambda0  pi-                    PHSP;
+0.0600    anti-Sigma-  pi0                    PHSP;
+0.0600    anti-Sigma0  pi-                    PHSP;
+Enddecay
+#
+Decay Sigma*0
+0.8800    Lambda0   pi0                     PHSP;
+0.0600    Sigma+  pi-                     PHSP;
+0.0600    Sigma-  pi+                     PHSP;
+Enddecay
+Decay anti-Sigma*0
+0.8800    anti-Lambda0  pi0                    PHSP;
+0.0600    anti-Sigma-  pi+                    PHSP;
+0.0600    anti-Sigma+  pi-                    PHSP;
+Enddecay
+#
+Decay Xi0
+1.0000    Lambda0   pi0                     PHSP;
+Enddecay
+Decay anti-Xi0
+1.0000    anti-Lambda0 pi0                     PHSP;
+Enddecay
+#
+Decay Xi-
+1.0000    Lambda0   pi-                     PHSP;
+Enddecay
+Decay anti-Xi+
+1.0000    anti-Lambda0 pi+                     PHSP;
+Enddecay
+#
+Decay Xi*-
+0.6670    Xi0   pi-                     PHSP;
+0.3330    Xi-   pi0                     PHSP;
+Enddecay
+Decay anti-Xi*+
+0.6670    anti-Xi0  pi+                     PHSP;
+0.3330    anti-Xi+  pi0                     PHSP;
+Enddecay
+#
+Decay Omega-
+0.6780    Lambda0   K-                      PHSP;
+0.2360    Xi0   pi-                     PHSP;
+0.0860    Xi-   pi0                     PHSP;
+Enddecay
+Decay anti-Omega+
+0.6780    anti-Lambda0  K+                     PHSP;
+0.2360    anti-Xi0   pi+                    PHSP;
+0.0860    anti-Xi+   pi0                    PHSP;
+Enddecay
+#
+#
+Decay Sigma_c*0
+1.0000    Lambda_c+  pi-                     PHSP;
+Enddecay
+CDecay anti-Sigma_c*0
+#
+Decay Sigma_c*+
+1.0000    Lambda_c+  pi0                     PHSP;
+Enddecay
+CDecay anti-Sigma_c*-
+#
+Decay Sigma_c*++
+1.0000    Lambda_c+  pi+                     PHSP;
+Enddecay
+CDecay anti-Sigma_c*--
+#
+Decay Xi_c*0
+0.5000    Xi_c0  pi0                     PHSP;
+0.5000    Xi_c0  gamma                   PHSP;
+Enddecay
+CDecay anti-Xi_c*0
+#
+Decay Xi_c*+
+0.5000    Xi_c+  pi0                     PHSP;
+0.5000    Xi_c+  gamma                   PHSP;
+Enddecay
+CDecay anti-Xi_c*-
+#
+Decay   Omega_c0
+1.00000        PYTHIA 84;
+Enddecay
+#
+CDecay  anti-Omega_c0
+#
+Decay Omega_c*0
+1.0000    Omega_c0  gamma                   PHSP;
+Enddecay
+#
+CDecay anti-Omega_c*0
+#
+Decay Xu0
+#                    X_u^0 -> u anti-u
+#
+1.0 u anti-u PYTHIA 11;
+Enddecay
+Decay Xu+
+#                    X_u^+ -> u anti-d
+#
+1.0 u anti-d PYTHIA 11;
+Enddecay
+CDecay Xu-
+
+#
+#
+#  Strange Mesons
+#
+#
+Decay K_S0
+0.6920    pi+  pi-                          PHSP;
+0.3069    pi0  pi0                          PHSP;
+Enddecay
+#
+#  K_L0 is decayed in GEANT
+#
+Decay K0
+0.500     K_L0                              PHSP;
+0.500     K_S0                              PHSP;
+Enddecay
+Decay anti-K0
+0.500     K_L0                              PHSP;
+0.500     K_S0                              PHSP;
+Enddecay
+#
+Decay K*0
+0.6657      K+  pi-                        VSS;
+0.3323      K0  pi0                        VSS;
+0.0020      K0  gamma                       VSP_PWAVE;
+Enddecay
+Decay anti-K*0
+0.6657      K-  pi+                        VSS;
+0.3323      anti-K0   pi0                        VSS;
+0.0020      anti-K0   gamma                       VSP_PWAVE;
+Enddecay
+Decay K*+
+0.6660      K0  pi+                        VSS;
+0.3330      K+  pi0                        VSS;
+0.0010      K+  gamma                       VSP_PWAVE;
+Enddecay
+Decay K*-
+0.6660      anti-K0   pi-                        VSS;
+0.3330      K-  pi0                        VSS;
+0.0010      K-  gamma                       VSP_PWAVE;
+Enddecay
+#
+# The decays below are for particle aliases and used when
+# generating CP violating decays that depends on the decay
+# of the neutral K*
+#
+Decay K*L
+1.0000      pi0 K_L0                       VSS;
+Enddecay
+Decay K*S
+1.0000      pi0 K_S0                       VSS;
+Enddecay
+Decay K*BL
+1.0000      pi0 K_L0                       VSS;
+Enddecay
+Decay K*BS
+1.0000      pi0 K_S0                       VSS;
+Enddecay
+Decay K*0T
+1.0000      pi- K+                        VSS;
+Enddecay
+Decay anti-K*0T
+1.0000      pi+ K-                        VSS;
+Enddecay
+#
+#
+Decay K_0*+
+0.6667      K0  pi+                       PHSP;
+0.3333      K+  pi0                       PHSP;
+Enddecay
+#
+Decay K_0*-
+0.6667      anti-K0   pi-                 PHSP;
+0.3333      K-  pi0                       PHSP;
+Enddecay
+#
+Decay K_0*0
+0.6667      K+  pi-                       PHSP;
+0.3333      K0  pi0                       PHSP;
+Enddecay
+#
+Decay K_0*0N
+1.0000      K0  pi0                       PHSP;
+Enddecay
+#
+Decay anti-K_0*0
+0.6667      K-  pi+                       PHSP;
+0.3333      anti-K0   pi0                 PHSP;
+Enddecay
+#
+Decay anti-K_0*0N
+1.0000      anti-K0   pi0                 PHSP;
+Enddecay
+#
+Decay K_10
+0.2800   rho-  K+                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1400   rho0  K0                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1067   K*+   pi-                       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0533   K*0   pi0                       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+#To large masses can cause infinit loops
+0.1100   omega  K0                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1444   K0    pi+ pi-                   PHSP;
+0.1244   K+    pi- pi0                   PHSP;
+0.0412   K0    pi0 pi0                   PHSP;
+Enddecay
+Decay anti-K_10
+0.2800   rho+  K-                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1400   rho0  anti-K0                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1067   K*-   pi+                       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0533   anti-K*0   pi0                       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+#To large masses can cause infinit loops
+0.1100   omega  anti-K0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1444   anti-K0    pi+ pi-                   PHSP;
+0.1244   K-    pi+ pi0                   PHSP;
+0.0412   anti-K0    pi0 pi0                   PHSP;
+Enddecay
+#
+Decay K_1+
+0.2800   rho+  K0                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1400   rho0  K+                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1067   K*0   pi+                       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0533   K*+   pi0                       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+#To large masses can cause infinit loops
+0.1100   omega  K+                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1444   K+    pi+ pi-                   PHSP;
+0.1244   K0    pi+ pi0                   PHSP;
+0.0412   K+    pi0 pi0                   PHSP;
+Enddecay
+Decay K_1-
+0.2800   rho-  anti-K0                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1400   rho0  K-                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1067   anti-K*0   pi-                       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0533   K*-   pi0                       VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+#To large masses can cause infinit loops
+0.1100   omega  K-                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1444   K-    pi+ pi-                   PHSP;
+0.1244   anti-K0    pi- pi0                   PHSP;
+0.0412   K-    pi0 pi0                   PHSP;
+Enddecay
+#
+Decay K'_1+
+0.6300   K*0  pi+                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.3100   K*+  pi0                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0200   rho+ K0                         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0100   rho0 K+                         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0100   omega K+                         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0133   K+  pi+  pi-                    PHSP;
+0.0067   K+  pi0  pi0                    PHSP;
+Enddecay
+Decay K'_1-
+0.6300   anti-K*0  pi-                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.3100   K*-  pi0                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0200   rho- anti-K0                          VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0100   rho0 K-                         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0100   omega K-                         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0133   K-  pi+  pi-                    PHSP;
+0.0067   K-  pi0  pi0                    PHSP;
+Enddecay
+Decay K'_10
+0.6300   K*+  pi-                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.3100   K*0  pi0                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0200   rho- K+                         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0100   rho0 K0                         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0100   omega K0                         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0133   K0  pi+  pi-                    PHSP;
+0.0067   K0  pi0  pi0                    PHSP;
+Enddecay
+Decay anti-K'_10
+0.6300   K*- pi+                         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.3100   anti-K*0 pi0                         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0200   rho+ K-                         VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0100   rho0 anti-K0                          VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0100   omega anti-K0                          VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0133   anti-K0   pi+  pi-                    PHSP;
+0.0067   anti-K0   pi0  pi0                    PHSP;
+Enddecay
+#
+Decay K_2*+
+0.3310   K0  pi+                         TSS;
+0.1660   K+  pi0                         TSS;
+0.1680   K*0 pi+                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.0840   K*+ pi0                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.0540   K*0 pi+ pi0                     PHSP;
+0.0540   K*+ pi+ pi-                     PHSP;
+0.0540   K*+ pi0 pi0                     PHSP;
+0.0590   rho+ K0                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.0300   rho0 K+                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+Enddecay
+Decay K_2*-
+0.3310   anti-K0   pi-                         TSS;
+0.1660   K-  pi0                         TSS;
+0.1680   anti-K*0 pi-                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.0840   K*- pi0                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.0540   anti-K*0 pi- pi0                     PHSP;
+0.0540   K*- pi+ pi-                     PHSP;
+0.0540   K*- pi0 pi0                     PHSP;
+0.0590   rho- K0                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.0300   rho0 K-                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+Enddecay
+Decay K_2*0
+0.3310   K+  pi-                         TSS;
+0.1660   K0  pi0                         TSS;
+0.1680   K*+ pi-                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.0840   K*0 pi0                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.0540   K*0 pi+ pi-                     PHSP;
+0.0540   K*0 pi0 pi0                     PHSP;
+0.0540   K*+ pi- pi0                     PHSP;
+0.0590   rho- K+                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.0300   rho0 K0                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+Enddecay
+Decay anti-K_2*0
+0.3310   K-  pi+                         TSS;
+0.1660   anti-K0   pi0                         TSS;
+0.1680   K*- pi+                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.0840   anti-K*0 pi0                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.0540   anti-K*0 pi+ pi-                     PHSP;
+0.0540   anti-K*0 pi0 pi0                     PHSP;
+0.0540   K*- pi+ pi0                     PHSP;
+0.0590   rho+ K-                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.0300   rho0 anti-K0                         TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+Enddecay
+
+# Decay K*(1410)
+Decay K'*0                    
+0.0467   K+  pi-                     VSS;
+0.0233   K0  pi0                     VSS;
+0.5760   K*+ pi-                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.2880   K*0 pi0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0440   rho- K+                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0220   rho0 K0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+#
+Decay anti-K'*0                          
+0.0467   K-  pi+                     VSS;
+0.0233   anti-K0   pi0               VSS;
+0.5760   K*- pi+                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.2880   anti-K*0 pi0                VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0440   rho+ K-                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0220   rho0 anti-K0                VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+#
+Decay K'*+                              
+0.0467   K0  pi+                     VSS;
+0.0233  K+  pi0                      VSS;
+0.5760   K*0 pi+                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.2880   K*+ pi0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0440   rho+ K0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0220   rho0 K+                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+#
+Decay K'*-                             
+0.0467   anti-K0   pi-               VSS;
+0.0233   K-  pi0                     VSS;
+0.5760   anti-K*0 pi-                VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.2880   K*- pi0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0440   rho- K0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0220  rho0 K-                      VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+#
+
+
+# Decay K*(1680)
+Decay K''*0                
+0.2580   K+  pi-                     VSS;
+0.1290   K0  pi0                     VSS;
+0.2093   K*+ pi-                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1047   K*0 pi0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1993   rho- K+                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0997   rho0 K0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+#
+Decay anti-K''*0              
+0.2580   K-  pi+                     VSS;
+0.1290   anti-K0   pi0               VSS;
+0.2093   K*- pi+                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1047   anti-K*0 pi0                VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1993   rho+ K-                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0997   rho0 anti-K0                VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+#
+Decay K''*+                            
+0.2580   K0  pi+                     VSS;
+0.1290   K+  pi0                     VSS;
+0.2093   K*0 pi+                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1047   K*+ pi0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1993   rho+ K0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0997   rho0 K+                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+#
+Decay K''*-                       
+0.2580   anti-K0   pi-               VSS;
+0.1290   K-  pi0                     VSS;
+0.2093   anti-K*0 pi-                VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1047   K*- pi0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.1993   rho- K0                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0997   rho0 K-                     VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+
+#
+#  Light Mesons
+#
+Decay pi0
+0.9880    gamma gamma                      PHSP;
+0.0120    e+  e- gamma                     PI0_DALITZ;
+Enddecay
+#
+Decay eta
+0.3938    gamma gamma                      PHSP;
+0.3251    pi0 pi0 pi0                    PHSP;
+0.2270    pi- pi+ pi0                    ETA_DALITZ;
+0.0469    gamma pi- pi+                   PHSP;
+0.0060    gamma e+  e-                    PHSP;
+0.0003    gamma mu+ mu-                   PHSP;
+0.00044   gamma gamma pi0                  PHSP;
+0.0004    pi+ pi- e+  e-                 PHSP;
+Enddecay
+#
+Decay rho0
+1.000    pi+ pi-                         VSS;
+Enddecay
+Decay rho+
+1.000    pi+ pi0                         VSS;
+Enddecay
+Decay rho-
+1.000    pi- pi0                         VSS;
+Enddecay
+#
+Decay omega
+0.8910    pi-  pi+  pi0                  OMEGA_DALITZ;
+0.0890    pi0  gamma                      VSP_PWAVE;
+0.0170    pi-  pi+                       VSS;
+0.00049   eta  gamma                      VSP_PWAVE;
+0.00077   pi0  e+  e-             PHOTOS PHSP;
+0.000096   pi0  mu+ mu-            PHOTOS PHSP;
+0.0024    pi+  pi- gamma                  PHSP;
+0.0012    pi0  pi0 gamma                  PHSP;
+0.0010    pi+ pi- pi+ pi-                PHSP;
+Enddecay
+#
+Decay eta'
+0.4450     pi+ pi- eta                   PHSP;
+0.2080     pi0 pi0 eta                   PHSP;
+0.2940     rho0  gamma                   SVP_HELAMP  1.0 0.0 1.0 0.0;
+0.0303     omega gamma                   SVP_HELAMP  1.0 0.0 1.0 0.0;
+0.0212     gamma gamma                     PHSP;
+0.00155    pi0 pi0 pi0                   PHSP;
+0.000104   gamma mu- mu+         PHOTOS   PHSP;
+Enddecay
+#
+Decay phi
+0.4920   K+   K-                         VSS;
+0.3400   K_L0  K_S0                        VSS;
+0.0430   rho+ pi-                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0430   rho0 pi0                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0430   rho- pi+                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0250   pi+  pi- pi0                    PHSP;
+0.0130   eta gamma                        VSP_PWAVE;
+0.0013   pi0 gamma                        VSP_PWAVE;
+0.0003   e+  e-              PHOTOS      VLL;
+0.0003   mu+ mu-             PHOTOS      VLL;
+Enddecay
+#
+Decay a_1+
+0.4920   rho0 pi+                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.5080   rho+ pi0                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+Decay a_10
+0.5000   rho- pi+                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.5000   rho+ pi-                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+Decay a_1-
+0.4920   rho0 pi-                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.5080   rho- pi0                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+#
+Decay a_2+
+0.3500   rho0 pi+                        TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.3500   rho+ pi0                        TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.1450   eta  pi+                        TSS;
+0.1060   omega pi+ pi0                    PHSP;
+0.0490   anti-K0   K+                         TSS;
+0.0027   pi+  gamma                       PHSP;
+Enddecay
+
+Decay a_2-
+0.3500   rho0 pi-                        TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.3500   rho- pi0                        TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.1450   eta  pi-                        TSS;
+0.1060   omega pi- pi0                    PHSP;
+0.0490   anti-K0   K-                         TSS;
+0.0027   pi-  gamma                       PHSP;
+Enddecay
+
+Decay a_20
+0.3500   rho+ pi-                        TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.3500   rho- pi+                        TVS_PWAVE 0.0 0.0 1.0 0.0 0.0 0.0;
+0.1450   eta  pi0                        TSS;
+0.1060   omega pi+ pi-                   PHSP;
+0.0240   K+   K-                         TSS;
+0.0120   K_L0  K_L0                      TSS;
+0.0120   K_S0  K_S0                      TSS;
+0.0027   pi0  gamma                      PHSP;
+Enddecay
+#
+Decay b_1+
+0.9984   omega pi+                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0016   pi+  gamma                       VSP_PWAVE;
+Enddecay
+#
+Decay b_1-
+0.9984   omega pi-                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0016   pi-  gamma                       VSP_PWAVE;
+Enddecay
+#
+Decay b_10
+0.9984   omega pi0                        VVS_PWAVE 1.0 0.0 0.0 0.0 0.0 0.0;
+0.0016   pi0  gamma                       VSP_PWAVE;
+Enddecay
+#
+Decay a_00
+0.9000    eta  pi0                       PHSP;
+0.0500    K+   K-                        PHSP;
+0.0250    K_S0  K_S0                       PHSP;
+0.0250    K_L0  K_L0                       PHSP;
+Enddecay
+#
+Decay a_0+
+0.9000    eta  pi+                       PHSP;
+0.1000    anti-K0    K+                        PHSP;
+Enddecay
+#
+Decay a_0-
+0.9000    eta  pi-                       PHSP;
+0.1000    K0   K-                        PHSP;
+Enddecay
+#
+Decay f_0
+0.5200   pi+  pi-                        PHSP;
+0.2600   pi0  pi0                        PHSP;
+0.1100   K+   K-                         PHSP;
+0.0550   K_S0  K_S0                        PHSP;
+0.0550   K_L0  K_L0                        PHSP;
+Enddecay
+#
+Decay f'_0
+0.5200   pi+  pi-                        PHSP;
+0.2600   pi0  pi0                        PHSP;
+0.0750   pi+ pi+ pi- pi-                 PHSP;
+0.0750   pi+ pi- pi0 pi0                 PHSP;
+0.0350   K+   K-                         PHSP;
+0.0175   K_S0  K_S0                        PHSP;
+0.0175   K_L0  K_L0                        PHSP;
+Enddecay
+#
+Decay f_1
+0.1500   rho0 pi+  pi-                   PHSP;
+0.0500   rho0 pi0  pi0                   PHSP;
+0.0500   rho+ pi-  pi0                   PHSP;
+0.0500   rho- pi+  pi0                   PHSP;
+0.1400   a_00  pi0                        VSS;
+0.1400   a_0+  pi-                        VSS;
+0.1400   a_0-  pi+                        VSS;
+0.0700   eta  pi+  pi-                   PHSP;
+0.0300   eta  pi0  pi0                   PHSP;
+0.0300   K+   K-   pi0                   PHSP;
+0.0200   K0   anti-K0   pi0                   PHSP;
+0.0300   anti-K0   K+   pi-                   PHSP;
+0.0300   K0   K-   pi+                   PHSP;
+0.0700   gamma rho0                       PHSP;
+Enddecay
+#
+Decay f'_1
+0.2500   K+   K-   pi0                   PHSP;
+0.2500   K0   anti-K0   pi0                   PHSP;
+0.2500   anti-K0   K+   pi-                   PHSP;
+0.2500   K0   K-   pi+                   PHSP;
+Enddecay
+#
+Decay f_2
+0.5650   pi+  pi-                        TSS;
+0.2820   pi0  pi0                        TSS;
+0.0280   pi+  pi-  pi+  pi-              PHSP;
+0.0720   pi+  pi-  pi0  pi0              PHSP;
+0.0030   pi0  pi0  pi0  pi0              PHSP;
+0.0230   K+   K-                         TSS;
+0.0115   K_S0  K_S0                        TSS;
+0.0115   K_L0  K_L0                        TSS;
+0.0040   eta  eta                        TSS;
+Enddecay
+#
+Decay f_0(1500)
+0.0500   eta  eta'                       PHSP;
+0.1500   eta  eta                        PHSP;
+0.1000   pi0  pi0  pi0  pi0              PHSP;
+0.2500   pi+  pi-  pi+  pi-              PHSP;
+0.1000   pi+  pi-                        PHSP;
+0.0500   pi0  pi0                        PHSP;
+0.1000   K+   K-                         PHSP;
+0.1000   K_S0  K_S0                      PHSP;
+0.1000   K_L0  K_L0                      PHSP;
+Enddecay
+#
+Decay f'_2
+0.4444   K+   K-                         TSS;
+0.2222   K_S0  K_S0                        TSS;
+0.2222   K_L0  K_L0                        TSS;
+0.1030   eta  eta                        TSS;
+0.0055   pi+  pi-                        TSS;
+0.0027   pi0  pi0                        TSS;
+Enddecay
+#
+Decay h_1
+0.3333   rho+ pi-                        VVS_PWAVE  1.0 0.0 0.0 0.0 0.0 0.0;
+0.3333   rho- pi+                        VVS_PWAVE  1.0 0.0 0.0 0.0 0.0 0.0;
+0.3334   rho0 pi0                        VVS_PWAVE  1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+#
+Decay h'_1
+0.2500   K*+  K-                         VVS_PWAVE  1.0 0.0 0.0 0.0 0.0 0.0;
+0.2500   K*-  K+                         VVS_PWAVE  1.0 0.0 0.0 0.0 0.0 0.0;
+0.2500   anti-K*0  K0                         VVS_PWAVE  1.0 0.0 0.0 0.0 0.0 0.0;
+0.2500   K*0  anti-K0                         VVS_PWAVE  1.0 0.0 0.0 0.0 0.0 0.0;
+Enddecay
+#         
+Decay rho(2S)+
+0.4000   pi+ pi0                         PHSP;
+0.4000   pi+ pi+ pi- pi0                 PHSP;
+0.2000   pi+ pi0 pi0 pi0                 PHSP;
+Enddecay
+Decay rho(2S)-
+0.4000   pi- pi0                         PHSP;
+0.4000   pi- pi+ pi- pi0                 PHSP;
+0.2000   pi- pi0 pi0 pi0                 PHSP;
+Enddecay
+Decay rho(2S)0
+0.4000   pi+ pi-                         PHSP;
+0.3500   pi+ pi- pi+ pi-                 PHSP;
+0.1500   pi+ pi- pi0 pi0                 PHSP;
+0.1000   pi0 pi0 pi0 pi0                 PHSP;
+Enddecay
+
+Decay x(1835)
+  1.0    eta' pi+ pi-             PHSP;
+Enddecay
+
+End
+
+
+
+

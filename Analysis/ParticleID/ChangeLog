@@ -1,0 +1,149 @@
+author hekl,qing,huangb
+2021-11-04 chentong@ihep.ac.cn
+	* chi value of low momentum for proton/Kaon/Pion from round05/09/11/12 Jpsi data in DedxPID is corrected.
+	* the reconstructed momenta after kalman correction are used in DedxPID.
+2020-03-22 sunss@ihep.ac.cn
+	* A bug is fixed in ParticleID.cxx, changed a loop from 4 to 5
+	* Remove low momentum proton correction based on 09 Jpsi data in previous version
+2019-10-21 lujd@ihep.ac.cn
+	* normPH and GoodHits cut in Dedx is canceled.
+	* chi value of low momentum in Dedx is corrected.
+	* some proton offset was set to -999 in txt file, which cause very big chi in PID, it is
+	set to 0 now.
+2019-08-06 sunss@ihep.ac.cn
+        * A warning sentence is commented since it is not suitable for MRPC
+	end cap TOF anymore.
+2018-11-14 sunss@ihep.ac.cn
+	* based on the validation of jpsi->ppbarpipi, the sigma of proton *1.5
+2018-11-09 sunss@ihep.ac.cn
+	* re-set of m_sigma[i], fix sigma value of mrpc end cap TOF
+2018-09-01 sunss@ihep.ac.cn
+	* a memeory leackage is correct in TofCorr
+2018-08-06 sunss@ihep.ac.cn
+	* In TofCorr, there are no enough stastic in some momentum range for proton and anti-proton, so the sigma is set as -999 in txt file, and convert to 0.001 in procedure. This would cause a very small chi in PID, it is set as 0.3 ns now.
+2016-11-02 sunss@ihep.ac.cn
+	* The sigma of MRPC endcap TOF is modified, it is divided into strip and momentum. It is based on the pion sample of kkpipi/4pi/gam4pi/5pi etc decay channels of 2015-16 data at 4.18GeV
+2015-10-29 sunss@ihep.ac.cn
+	* ParticleID-00-04-61
+	The TofEPID is updated for both Scintillator and MRPC, which is based on v00-04-59
+	The secondary correction is also applied for all data using jpsi2012's parameters, as previous update. The MRPC is also supported.
+2015-07-14 sunss@ihep.ac.cn
+        * The TOF secondary correction will be applied for all data using jpsi2012's parameters. based on ParticleID-00-04-58
+2015-04-15 sunss@ihep.ac.cn
+	* The correction for jpsi2009 is removed. That means all the data and MC will be corrected using jpsi2012's result.
+2014-12-04 sunss@ihep.ac.cn
+	* A bug in TofCorrPid for endcap TOF is fixed
+	* Particle class support setChiMax, which default is 6.
+	* in Particle class init, chimincut and chimaxcut are 4 and 6.
+	* endcap secondary correction is updated using west endcap
+2014-10-28 sunss@ihep.ac.cn
+	* TOF secondary correction parameters for 2012 Jpsi MC is added
+	* several functions, such as dt, dtcorr, sigcorr and chicorr are added.
+	* Since the corresponding codes are not published, MRPC related update is not include.
+2014-04-08 Matthias.Ullrich@physik.uni-giessen.de
+	MRPC upgrade is added and can now be used for PID calculation
+2013-03-04 sunss@ihep.ac.cn
+	the parameters of sigma of anti-proton for endcap tof is added.
+2013-03-01 sunss@ihep.ac.cn
+	a bug is fixed
+2013-02-01 sunss@ihep.ac.cn
+	the correction for low momentum proton and anti-proton is added into the package.
+2013-01-30 sunss@ihep.ac.cn
+	this is a test version for physics experters.
+	the TOF correction for hadrons for jpsi data taken in 2009 is include in this version.
+2010-12-22 huangb@ihep.ac.cn
+add the dedx correction for 6.5.5 
+
+2010-12-13 huangb@ihep.ac.cn
+remove the 653 dedx correction in 6.5.5
+
+2010-12-6 huangb@ihep.ac.cn
+reinitilize the sub system in ParticleID.cxx
+not correction on the dedxpid if the momentum range is not included in the control sample 
+
+2010-11-1 huangb@ihep.ac.cn
+set the default value of m_pdfsigmamin_cut
+
+2010-11-1 huangb@ihep.ac.cn
+sigma unit from rec change from ps to ns, chi ust Tof1Pid and Tof2Pid is changed from 4 to set by user 
+
+2010-9-15 huangb@ihep.ac.cn
+tof pid return to previous version
+
+2010-9-6 huangb@ihep.ac.cn
+add the correction for dedx psip MC
+
+2010-9-1 huangb@ihep.ac.cn
+add the correction for dedx pion and kaon MC
+
+2010-8-19 huangb@ihep.ac.cn
+fix two bugs in TofPid
+
+2010-8-16 huangb@ihep.ac.cn
+add the correction for dedx data
+
+2010-8-16 huangb@ihep.ac.cn
+set the ToF endcap MC sigma
+
+2010-8-12 huangb@ihep.ac.cn
+set the ToF endcap sigma from sunss
+
+2010-7-22 huangb@ihep.ac.cn
+fix a bug
+
+2010-6-17 huangb@ihep.ac.cn
+use the culster of TOF reconstruction result
+
+
+2009-1-4 huangb@ihep.ac.cn
+retrain the muc NN in BOSS6.5.1
+
+
+2009-12-24 huangb@ihep.ac.cn
+change the ptrk in emcpid from mdctrk to mdckaltrk
+change the large delta_phi in emcpid
+retrain the emc NN in BOSS6.5.1
+
+2009-10-10 lixr@ihep.ac.cn
+remove the correction of dEdx with low p/mass.
+remove the correction of dEdx with cos(theta) and p.
+
+2009-09-27 lixr@ihep.ac.cn
+add the toffset(i) due to te request of sunss
+
+2009-09-21 lixr@ihep.ac.cn
+add chiTofC and pdfTofC, correct MC 6.5.0a TOf and dEdx parameters
+
+2009-08-14 huangb@ihep.ac.cn
+train the Emc and Muc with samples form BOSS6.5.0
+
+2009-07-30 lixr@ihep.ac.cn
+Add functions of getRunNo(), setRunNo(),getNhitCutDx(), setNhitCutDx().
+Create packages of TofCPID.
+correct dEdx and TOF distribution of momentum and cos(theta)
+
+2009-07-24 huangb@ihep.ac.cn
+fix some bugs in the TofEPID
+
+2009-07-03 lixr@ihep.ac.cn
+* get run number to seperate MC and data.
+* correct the chi value of dE/dx with low p/mass.	
+
+2008-12-12   huangb@ihep.ac.cn
+* remove the correction of dedx and tof since it is from mc
+
+2008-8-5   huangb@ihep.ac.cn
+* fix  memory leak of emcpid and mucpid
+
+2008-4-3   huangb@ihep.ac.cn
+* the lenght unit of TOF changed from mm to cm
+* Change EmcPid to ROOT 5.14
+
+2008-4-3   huangb@ihep.ac.cn
+* new release 
+* change the interface to integrate the rec data
+  
+2007-10-9   huangb@ihep.ac.cn
+* new release 
+* the likilihood method and probability method complete for all the
+  detecters(dE/dx,TOF,EMC and MUC)

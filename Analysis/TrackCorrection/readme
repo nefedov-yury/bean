@@ -1,0 +1,18 @@
+For details, please refer the Data_Qality page:
+https://docbes3.ihep.ac.cn/~charmoniumgroup/index.php/DataQuality_Page
+
+The 'TrackCorrection' class based on "TrackCorrection" package
+modified for use in a BEAN (see ~guoyp/public/TrackCorrection)
+
+The corrections we use are taken from works:
+1) for BOSS-6.6.4
+http://docbes3.ihep.ac.cn/~charmoniumgroup/index.php/File:Helix_zhangjielei.pdf
+for ψ' → K+ K− π+ π− process in 2009 (TABLE VI) and 2012(TABLE V)
+
+2) for BOSS-7.0.9
+https://docbes3.ihep.ac.cn/~charmoniumgroup/index.php/File:Pi_helix.pdf
+https://docbes3.ihep.ac.cn/~charmoniumgroup/index.php/File:K_helix.pdf
+
+IMPORTANT:
+        Remember to update the correction factors to the ones
+        corresoonding to your analysis BOSS version.

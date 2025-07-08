@@ -1,0 +1,264 @@
+2021-05-06 Zhang Yao<zhangyao@ihep.ac.cn>
+    * Update TMdcMc version to 2
+
+2021-04-23 Zhang Yao<zhangyao@ihep.ac.cn>
+    * Truth info in TMdcMc
+
+2020-12-14 Zhang Yao<zhangyao@ihep.ac.cn>
+    * Add TRecZddChannel for ZDD detector
+
+2013-05-06 Zou Jiaheng <zoujh@ihep.ac.cn>
+	* Add TRecZddChannel for ZDD detector
+
+2013-02-21  LI Chunhua  <chunhuali@ihep.ac.cn>
+        * Add MucKal output in MucTrack
+
+2012-11-06 Zhang Yao<zhangyao@ihep.ac.cn>
+	* add nlayer in TRecMdcTrack,TRecMdcKalrack,TMdcTrack,TMdcKalTrack
+
+2012-02-27 Nefedov Yury <Nefedov.Yuri@jinr.ru>
+	* Using the fact that an error matrix is symmetric
+	*  we can reduce size of arrays to keep only triangular part of matrix:
+	*  SimMatr.h           functions to work with symmetric matrices
+	*  
+	*  TMdcKalTrack:       Double_t m_zerror[15];
+	*                      Double_t m_zerror_e[15];
+	*                      Double_t m_zerror_mu[15];
+	*                      Double_t m_zerror_k[15];
+	*                      Double_t m_zerror_p[15];
+	*                      Double_t m_ferror[15];
+	*                      Double_t m_ferror_e[15];
+	*                      Double_t m_ferror_mu[15];
+	*                      Double_t m_ferror_k[15];
+	*                      Double_t m_ferror_p[15];
+	
+	*  TExtTrack:          Double_t myTof1ErrorMatrix[21];
+	*                      Double_t myTof2ErrorMatrix[21];
+	*                      Double_t myEmcErrorMatrix[21];
+	*                      Double_t myMucErrorMatrix[21];
+	
+	* Remove variables:
+	*  TMdcDedx:           Double_t m_chi[5]; 
+	*                      This array is not used in converter
+	*                      (MdcDedxCnv.cxx). The same information is in
+	*                      variables: m_chiE, m_chiMu ... m_chiP.
+	
+	*  TMdcKalTrack:       Int_t    m_nster[5];
+	*                      Int_t    m_firstLayer[5];
+	*                      Int_t    m_lastLayer[5];
+	*                      These variables are not used in ROOT->TDS
+	*                      object converter (MdcKalTrackCnv.cxx)
+	
+	*  TTrigEvent:         Bool_t m_fromMc;
+	*  THltEvent:          Bool_t m_fromMc;
+	*                      These variables do not mean anything:
+	*                      m_fromMc=1 even for data.
+	*                      There are no "TTrigEvent" or "THltEvent"
+	*                      branches in MC-dst files.
+
+2011-05-06 Wang Liangliang <llwang@ihep.ac.cn>
+	* Add Int_t m_nSegs[5] in TRecMdcKalTrack.h
+
+2010-12-06  Zou Jiaheng <zoujh@ihep.ac.cn>
+	* Add additional flags to EventHeader
+
+2010-12-03 Wang Liangliang <llwang@ihep.ac.cn>
+	* add the status of Kalman smoothing to the DST
+
+2010-09-29 Zou Jiaheng<zoujh@ihep.ac.cn>
+	* add TBossFullEvent for data streaming (in DistBoss)
+	* fix markers in header files used by rootcint to generate streamer
+
+2010-08-18 Wang Liangliang <llwang@ihep.ac.cn>
+	* remove pocas in TMdcKalTrack.h
+
+2010-03-18 Zou Jiaheng<zoujh@ihep.ac.cn>
+	* first import of TLumiDigi
+
+2009-12-24 Cao xuexiang<xcao@ihep.ac.cn>
+	* add some par into TRexMdcDedx
+
+2009-12-23 Ma Xiang<max@ihep.ac.cn>
+	* comment some unnecessary function in TRecMdcKalHelixSeg.h
+
+2009-11-16 Ma Xiang<max@ihep.ac.cn>
+	* add FHelix and FError in TMdcKalTrack.h
+
+2009-11-12 Ma Xiang<max@ihep.ac.cn>
+	* add THelix and TError in TRecMdcKalTrack.h
+	* add TRecMdcKalHelixSeg.h 
+
+2009-10-16 Chunlei Liu <chl56@cmu.edu>
+	* add one more function in TEvtRecDTag.h
+
+2009-06-24 Ma Xiang<max@ihep.ac.cn>
+	* Add fiTerm,pathSM,Lpoint,Lpivot in TRecMdcKalTrack.h
+
+2009-03-20 Chunlei Liu <chl56@cmu.edu>
+	* add files for Pi0 list
+
+2009-02-20 He Miao <hem@ihep.ac.cn>
+	* change ClassDef of TRecEmcShower from 3 to 4
+
+2009-02-20 Lei Zhang <leizhang@ihep.ac.cn>
+	* Add some variables to TEmcMc.h, i.g. hitmap
+
+2009-01-13 He Miao <hem@ihep.ac.cn>
+	* Add time information to TEmcTrack.
+	* Remove dx, dy, dz in TEmcTrack and TRecEmcShower.
+
+2008-12-03 Xu Min <xum@ihep.ac.cn>
+	* move EvtRecPrimaryVertex and EvtRecVeeVertex from ReconEvent to EvtRecEvent
+
+2008-12-03 Zou Jiaheng <zoujh@ihep.ac.cn>
+	* split the EvtRecEvent from the RecEvent
+
+2008-11-21 Xu Min<xum@ihep.ac.cn>
+	* add TEvtRecPrimaryVertex and TEvtRecVeeVertex
+
+2008-11-03 Fu Chengdong<fucd@ihep.ac.cn>
+	* add data and function members into TDstHltInf,THltInf
+
+2008-08-27 huangb<huangb@ihep.ac.cn>
+	* fix the memory leak of calss TDisTrack
+
+2008-08-26 huangb<huangb@ihep.ac.cn>
+	* change the extTrackCol to be recExtTrackCol in class TRecTrackEvent
+
+2008-07-21 Liang Yutie<liangyt@ihep.ac.cn>
+	* add time in event header
+
+2008-06-25 Huang Bin <huangb@ihep.ac.cn>
+	* This version is  a temporary for BOSS6.3.3-Cosmic
+	* modify LinkDef.h 
+
+2008-06-25 Huang Bin <huangb@ihep.ac.cn>
+	* This version is  a temporary for BOSS6.3.3-Cosmic
+	* add TDisTrack calss
+	* add new function for
+	* TRecMdcTrack,TRecTofTrack,TRecMucTrack,TRecMdcHitsTrack
+
+
+2008-04-18 J.K. Wang <wangjk@ihep.ac.cn>
+	* in class TRecMdcKalTrack added these members:
+	*  Double_t m_poca[3];
+	* Double_t m_poca_e[3];
+	* Double_t m_poca_mu[3];
+	* Double_t m_poca_k[3];
+	* Double_t m_poca_p[3];
+
+2008-04-17 J.K.Wang<wangjk@ihep.ac.cn>
+	* in TRecMdcTrack.cxx and TMdcTrack.cxx 
+	* change from pxy = 1./m_helix[2] to 
+	* pxy = 1./fabs(m_helix[2])
+
+2008-03-18 Liang Yutie<liangyt@ihep.ac.cn>
+	* remove EventList
+
+2008-03-06 Liang Yutie<liangyt@ihep.ac.cn>
+	* add hit list in TRecMucTrack
+
+2008-03-02 WANG Liangliang <llwang@ihep.ac.cn>
+	* add emcPath in TExtTrack
+	* add TRecExtTrack
+
+2008-02-22 Wen Shuopin <wensp@ihep.ac.cn>
+	* change TRecEvent to TDigiEvent
+
+2008-02-02 Wen Shuopin <wensp@ihep.ac.cn>
+	* add the modify of 6.3.1
+
+
+2008-01-25 He Miao <hem@ihep.ac.cn>
+	* Add errors, 4 moments in TEmcTrack and TRecEmcShower.
+	* Add cellId3x3, cellId5x5 in TRecEmcShower.
+	* Add seeds vector in TRecEmcCluster.
+
+2008-01-24 Cao xuexiang<xcao@ihep.ac.cn>
+	* add class TRecMdcDedxHit, change TRecDedx into TRexMdcDedx
+
+2008-01-22 Liang Yutie<liangyt@ihep.ac.cn>
+	* add class TEvtHeader 
+
+2008-01-17 J.K. Wang <wangjk@ihep.ac.cn>
+	* change class TRecMdcTrack, TMdcTrack
+	* change class TRecMdcKalTrack, TMdcKalTrack
+
+2006-10-08 Wen Shuopin <wensp@ihep.ac.cn>
+	* changed Short_t to Int_t in TDstEvent,TRecEvent,TMcEvent 
+
+2006-06-19 Wen Shuopin <wensp@ihep.ac.cn>
+	* changed EMC imformation
+
+2006-05-22 Wen Shuopin <wensp@ihep.ac.cn>
+	* add DecayMode information to DstEvent and delete TDecayMode
+	*  version : from RootEventData-00-02-04 to RootEventData-00-02-05
+
+2006-05-22 Wen Shuopin <wensp@ihep.ac.cn>
+	* add DecayMode information
+
+2006-05-11 Wen Shuopin <wensp@ihep.ac.cn>
+	* add McParticle information
+
+2006-03-24 Wen Shuopin <wensp@ihep.ac.cn>
+	* update to 6.0,0
+
+2006-02-27 Wen Shuopin <wensp@ihep.ac.cn>
+	* add ExtMucHit information
+
+2006-01-13  Da.yong WANG  <wangdy@mail.ihep.ac.cn>
+	* DstMdcKalTrack: change status to 2-D
+
+2006-01-10 Wen Shuopin <wensp@ihep.ac.cn>
+	* add MCTruth converter
+
+2005-12-05 You Zhengyun <youzy@hep.pku.cn>
+	* Substitue all UShort_t with UInt_t in TMdc(Tof,Emc,Muc)Digi.cxx(.h), 
+	* number of bits in UShort_t is not long enough for TDC, ADC
+
+2005-11-07 Wen Shuopin <wensp@ihep.ac.cn>
+	* TofTrack changed
+
+2005-10-28 You Zhengyun <youzy@hep.pku.cn>
+	* MucTrack changed
+
+2005-10-21 Wen Shuopin <wensp@ihep.ac.cn>
+	* Add TrackID and Hits message
+
+2005-10-18 Wen Shuopin <wensp@ihep.ac.cn>
+	* Emc : fix a bug
+
+2005-09-015 Wen Shuopin <wensp@ihep.ac.cn>
+	* Changed the Data style
+
+2005-09-07 Wen Shuopin <wensp@ihep.ac.cn>
+	* Add Dst Ext Track
+
+2005-07-29 Wen Shuopin <wensp@ihep.ac.cn>
+	*  Trivial mod
+
+2005-05-10 Wen Shuopin <wensp@ihep.ac.cn>
+	* TMucTrack.h : Trivial mod 
+
+2005-05-09 Wen Shuopin <wensp@ihep.ac.cn>
+	* Add Dst Tracks
+
+2005-05-09 Weidong Li  <liwd@ihep.ac.cn>
+	* Renaming class and package names 
+
+2005-4-28  Weidong Li <liwd@ihep.ac.cn>
+	* Adding MucDigi  
+
+2005-2-28  maqiumei maqm@mail.ihep.ac.cn
+	* resean: for changing to normal names 
+	* add :
+	* TEmcDigi.cxx TEmcDigi.h
+	* remove:
+	* TCalDigi.h TCalDigi.cxx
+	* modify:
+	* TDigiEvent.cxx
+	* LinkDef.h
+
+2004-9-1    Huang Xingtao <huangxt@hepg.sdu.edu.cn>
+	    Zhang Xueyao  <zhangxy@hepg.sdu.edu.cn>
+	* create this package

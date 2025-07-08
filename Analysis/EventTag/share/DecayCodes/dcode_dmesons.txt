@@ -1,0 +1,210 @@
+##################################
+#
+#   D+ Meson
+#################################
+Decay D+
+1   e+ nu_e
+2   mu+ nu_mu               
+3   tau+ nu_tau             
+
+
+8   anti-K*0  e+  nu_e         
+9   anti-K0    e+  nu_e        
+10   anti-K_10  e+  nu_e        
+11   anti-K_2*0 e+  nu_e        
+12   pi0  e+  nu_e          
+13   eta  e+  nu_e          
+14   eta' e+  nu_e          
+15   rho0 e+  nu_e          
+16   omega e+  nu_e         
+17   K-  pi+  e+ nu_e       
+18   anti-K0  pi0  e+  nu_e 
+#
+32   anti-K*0  mu+  nu_mu         
+33   anti-K0    mu+  nu_mu        
+34   anti-K_10  mu+  nu_mu        
+35   anti-K_2*0 mu+  nu_mu        
+36   pi0  mu+  nu_mu        
+37   eta  mu+  nu_mu        
+38   eta' mu+  nu_mu        
+39   rho0 mu+  nu_mu        
+40   omega mu+  nu_mu       
+41   K-  pi+  mu+ nu_e      
+42   anti-K0  pi0  mu+  nu_mu
+#
+#
+
+64   anti-K0   pi+           
+65   a_1+ anti-K0            
+66   anti-K'_10  pi+         
+67   anti-K_0*0  pi+        
+68   anti-K*0 rho+           
+
+# the Dalitz mode below includes K*bar(892)0 pi+, 
+# K*bar(1430)0 pi+, and K*bar(1680)0 pi+ resonances.
+69    K-  pi+  pi+   
+# the Dalitz mode below includes K0bar rho+, 
+# and K*bar(892)0 pi+ resonances
+
+70   anti-K0   pi+  pi0             
+71   anti-K0   eta  pi+             
+72   anti-K0   rho0  pi+            
+73   anti-K0   omega  pi+         
+74   K-  rho+  pi+                  
+75   K*- pi+  pi+                   
+76   anti-K*0 pi0  pi+              
+77   anti-K*0 eta  pi+              
+78   anti-K*0 rho0  pi+             
+79   anti-K*0 omega  pi+            
+80   K*- rho+  pi+                   
+#
+81   K-  pi+  pi+   pi0              
+82   anti-K0   pi+  pi+   pi-        
+83   anti-K0   pi+  pi0   pi0        
+84   K-  pi+  pi+   pi+   pi- 
+85   K-  pi+  pi+   pi0   pi0  
+86   anti-K0   pi+  pi+   pi-  pi0
+87   anti-K0   pi+  pi0   pi0  pi0
+#
+88   anti-K0   anti-K0    K+  
+89   phi pi+                  
+90   phi pi+  pi0             
+91   anti-K0   K+             
+92   anti-K*0  K+             
+93   K*+  anti-K0             
+94   anti-K*0 K*+             
+95   K+   K-  pi+             
+96   K+  anti-K0   pi0        
+97   anti-K0   K0  pi+        
+98   K*+ K-  pi+              
+99   K+  K*- pi+              
+100   K*+ anti-K0   pi0        
+101   K+  anti-K*0 pi0         
+102   anti-K*0 K0  pi+         
+103   anti-K0   K*0 pi+        
+
+104   pi0 pi+                    
+105   rho0 pi+                   
+106   pi+  pi+  pi-              
+107   pi+  pi0  pi0              
+108   pi+  pi+  pi-  pi0         
+109   pi+  pi0  pi0  pi0         
+110   eta pi+                    
+111   eta pi+ pi0                
+112   eta pi+ pi+ pi-            
+113   eta pi+ pi0 pi0            
+114   pi+ pi+ pi+ pi- pi-         
+Enddecay
+#
+######## D0 #####################################
+Decay D0
+# updated according to suggestions by P. Roudeau,
+# using PDG2004 measurements and imposing the equality
+# of sl partial widths for D+ and D0.
+# Include additional decay anti-K0 pi- e+ nu_e , K- pi0 e+ nu_e.
+#
+1 e+ e-
+2 mu+ mu-
+3 tau+ tau-
+
+8  K*-  e+  nu_e          
+9  K-   e+  nu_e          
+10  K_1-  e+  nu_e       
+11  K_2*- e+  nu_e       
+12  pi-  e+  nu_e          
+13  rho- e+  nu_e          
+14  anti-K0  pi-  e+  nu_e  
+15  K-  pi0  e+  nu_e       
+#
+32  K*-  mu+ nu_mu         
+33  K-   mu+ nu_mu         
+34  K_1-  mu+ nu_mu        
+35  K_2*- mu+ nu_mu        
+36  pi-  mu+ nu_mu         
+37  rho- mu+ nu_mu         
+38  anti-K0  pi-  mu+  nu_mu
+39  K-  pi0  mu+  nu_mu    
+#
+
+64  K-  pi+                         
+65  anti-K0   pi0                   
+66  anti-K0   eta                   
+67  anti-K0   eta'                  
+68  omega anti-K0                   
+69  anti-K*0 eta                    
+70  anti-K*0 eta'                   
+71  a_1+ K-                         
+72  K*- rho+                        
+73  anti-K*0 rho0                   
+74  anti-K*0 omega                  
+# the Dalitz mode below includes K*bar(892)0 pi0, 
+# K*(892)- pi+, and K- rho(770)+ resonances
+75  K-  pi+  pi0                    
+76  K*0 pi0                        
+77  K_1- pi+                        
+78  anti-K_10 pi0                   
+#
+# the Dalitz mode below includes K*(892)- pi+ and Kbar0 rho(770)0 resonances
+79  anti-K0   pi+  pi-          
+80  anti-K0   pi0  pi0          
+81  anti-K*0 pi+  pi-           
+82  anti-K*0 pi0  pi0           
+83  K*- pi+  pi0                
+84  K-  rho+ pi0                
+85  K-  pi+  rho0               
+86  K-  pi+  omega              
+87  K-  pi+  eta                
+88  K-  pi+  eta'               
+89  K-  pi+  pi+   pi-          
+90  anti-K0   pi+  pi-   pi0    
+#
+# K- pi+ pi0 pi0 is (15 +/- 5)% in the PDG, but we decrease it to 
+# have everything add to 1 and get enough neutral kaons:
+91  K-  pi+  pi0   pi0             
+#
+92  anti-K0   pi0  pi0   pi0       
+93  K-  pi+  pi+   pi-   pi0       
+94  K-  pi+  pi0   pi0   pi0       
+95  anti-K0   pi+  pi-   pi+   pi- 
+# 
+96   anti-K0   pi+  pi-   pi0   pi0 
+97   anti-K0   pi+  pi-   pi0   pi0   pi0 
+#
+98 phi anti-K0                   
+99 anti-K0   K+   K-             
+100 K_S0 K_S0  K_S0               
+101 K+  K-                        
+102 K_S0 K_S0                     
+103 K_L0 K_L0                     
+104 K*0 anti-K0                   
+105 anti-K*0 K0                   
+106 K*- K+                        
+107 K*+ K-                        
+108 anti-K*0 K*0                  
+109 phi pi0                       
+110 phi pi+  pi-                  
+111 K+  K-   pi+  pi-             
+112 K+  K-   pi0  pi0             
+113 anti-K0   K0   pi+  pi-       
+114 anti-K0   K0   pi0  pi0       
+#
+115  pi+ pi-                       
+116 pi0 pi0                       
+117 eta pi0                       
+118 eta'  pi0                     
+119 eta eta                       
+120 rho+ pi-                      
+121 rho- pi+                      
+122 rho0 pi0                      
+123  pi+  pi-  pi0                 
+124 pi0  pi0  pi0                 
+125 pi+  pi+  pi-  pi-            
+126 pi+  pi-  pi0  pi0            
+127 pi+  pi-  pi+  pi-  pi0       
+128 pi+  pi-  pi0  pi0  pi0       
+#
+# Doubly Cabibbo suppressed decays:
+129   pi-  K+                      
+130   pi-  K+  pi0                 
+Enddecay
+#
